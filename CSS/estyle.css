@@ -1,0 +1,14 @@
+body{background-color: rgba(148, 95, 85, 0.575);}
+
+h1 {color: rgb(22, 14, 13); font-style: initial; font-size: 50px; font-weight: 500 ;}
+
+h2{color: black; font-style: oblique ; font-size:16px;}
+
+/* Selector de clase: No esta atado a una etiqueta*/ 
+.parrafoprincipal{font-size: 20px; border-left: 2px lavender; border-right: 2px;}
+.imagen{
+    width:75%; /*80% del area visible -> viewport*/
+    margin-left:12.5%;
+    margin-right:12.5%;
+}
+

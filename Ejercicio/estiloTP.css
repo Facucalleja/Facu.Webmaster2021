@@ -1,0 +1,52 @@
+body{background-color: rgba(248, 231, 231, 0.575); border-radius: solid; width: 60%; text-align: justify;}
+
+h3{color: rgb(58, 58, 61); 
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 16px; 
+   font-weight: 12px ;}
+
+h2 {
+    color: black; 
+    font-style: oblique ; 
+    font-size: 10px;}
+
+/* Selector de clase: No esta atado a una etiqueta*/ 
+.parrafoprincipal{font-size: 20px; border: 2px rgb(117, 117, 117); text-align: justify, center; }
+.imagen{
+    border-radius: solid 3px rgb(63, 60, 60);
+    width: 30%;
+    margin: auto;
+    margin-bottom: 8px;
+    display: block;
+}
+.sucursales {text-align:left;
+color: dimgrey; text-size-adjust: auto;
+}
+.cuadro {
+    background-color: rgb(255, 255, 255);
+    border: solid 3px;
+    padding: 5%;
+    margin: 12,5%;
+    width:80%;
+}
+.cuadrodetexto{ 
+    background-color: grey; 
+    border: 1px;
+    margin: 5px;
+    padding: 10px;
+    }
+
+.bannerimg {
+        width: 100vh
+
+        ;
+    }
+#paginaentera{
+    width:75%; /*80% del area visible -> viewport*/
+    margin-left:7.5%;
+    margin-right:7.5%;
+    padding: 3px;
+    border: solid 1px rgb(0, 0, 0), 
+}
+    
+    
