@@ -1,0 +1,149 @@
+
+*{border: 0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+#contenedor {width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;}
+
+.header{ 
+    width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+    background-image: url(../Banner\ River\ header.jpg);
+    margin-bottom: 1,5%;
+    color: white;
+    padding: 20px;
+    }
+
+.navbarra {background-color: rgb(118, 118, 122);
+    color: white /*no toma el color del hipervinculo poruqe tenes que modificarlo cada uno*/;
+    text-align: right;
+    padding: 10px;
+
+}
+/* Menu Principal */
+
+.navbarra ul  { list-style-type: none;}
+
+   .navbarra ul li { display: block;
+    
+     }
+    /*Es lo mismo que hacer .navbarra li */
+     
+    
+    .navbarra ul li a {
+        color: white;
+        text-decoration: none;
+
+    }
+    /*pseudoclases*/
+
+    
+    .navbarra ul li a:hover { 
+        text-decoration: underline ;
+        background-color: red;
+
+
+    }
+
+a{color: white;}
+
+.principal { width: 80%;
+    background: rgb(194, 194, 194);
+    padding: 2%;
+    border: 2px solid;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+
+
+.banner { width: 20%;
+        background-image: url(../gallardobannerlateral.jpg);
+    padding: 2px;
+    float: right;
+    height: 600px;
+    
+}
+
+.highlight1 {
+    background-color: rgba(5, 5, 5, 0.904);
+    color: rgba(199, 1, 1, 0.925);
+    padding: 15px;
+    margin-bottom: 15px; 
+
+}
+
+ .logoriver {image-resolution: 25px; 
+    width: 30px; 
+    float: none;
+    }
+
+
+.simple {
+    background-color: grey;
+    width: 50%;
+    padding: 15px;
+    float: left;
+    
+}
+
+.imgsimple { width: 100%;
+}
+
+
+
+.footer {clear: both; 
+    background-color:rgba(247, 2, 2, 0.938);
+    color: white;
+    padding: 2%; padding-left: 4%;
+    height: 150px;
+    
+}
+
+.footerchicos {float: left;
+    margin-right: 35px;
+    
+}
+
+.highlight1 h2 {color: white;
+    padding: 15px 0;
+    text-decoration-line: solid ;
+    
+}
+
+
+
+.formulario { 
+    width: 70%;
+    padding: 15px;
+    height: 400px;
+}
+
+#formcontacto { background-color: rgba(128, 128, 128, 0.514);
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+
+#formcontacto  input { width: 80%; 
+    margin: 10px;
+padding: 10px;
+font-size: 1,2em;
+}
+
+#formcontacto input[type="checkbox"] {width: auto;}
+
+#formcontacto input[type="radio"] {width: auto;}
+
+#formcontacto textarea {width: 80%; height: 90px;}
+
+#formcontacto  select { width: 80%; 
+    margin: 10px;
+   padding: 10px; 
+   font-size: 1,2em;
+}
