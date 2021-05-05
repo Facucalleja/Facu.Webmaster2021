@@ -1,0 +1,255 @@
+*{border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    #contenedor {width: 85%;
+        max-width: 1100px;
+        margin: 0 auto;
+    box-sizing: border-box;
+    height: 1100px;
+
+}
+    
+    .header{ 
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-color: rgb(#2A4749);
+        background:#2A4749 ;
+    
+                padding: 20px;
+                padding-top: 40px;
+                height: 200px;
+                        }
+    
+    .logoestudio {float: left;
+    padding-bottom: 25px ;} 
+
+    .header h1 {text-decoration: overline #94a3a4; color: #94a3a4;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+     text-align-last: right;
+     font-size: 8; 
+     margin-top: 45px;
+     float: right;
+    }
+    
+    .navbar {background-color:#94a3a4;     
+        color: white /*no toma el color del hipervinculo poruqe tenes que modificarlo cada uno*/;
+        padding-left: 40px;
+        padding-right: 20px;
+        height: 60px;
+        margin: 5px 0;
+        position: sticky;
+        top: 0%;
+        
+
+    
+    }
+
+    
+    
+
+    .logonav {float: right;}
+    /* Menu Principal */
+
+    
+      
+       .navbar div { display: block; float: left; 
+        margin-right: 2% ; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        border: solid #2A4749;
+               
+         }
+
+                                    
+        
+
+
+        /*Es lo mismo que hacer .navbarra li */
+         
+        
+        .navbar ul li a {
+            color:#2A4749;
+            
+    
+        }
+        /*pseudoclases*/
+    
+        
+        .navbar ul li a:hover { 
+            text-decoration: underline ;
+            background-color: red;
+    
+    
+        }
+
+        .seccionprincipal {
+            margin-top: 25px;
+        padding: 20px;
+        width: 72%;
+        height: 400px;
+        color:#94a3a4;   
+        float: left; 
+    border:ridge #2A4749;
+    clear: both; }
+  
+    .seccionprincipal h2 {text-align-last: center;}
+    
+    a{color: #2A4749;}
+    
+    a:hover {
+        text-decoration: overline #2A4749 ;
+        padding: 5px
+    }
+    
+    .principal { width: 80%;
+        background: rgb(194, 194, 194);
+        padding: 2%;
+        border: 2px solid;
+        box-sizing: border-box;
+        float: left;
+        
+    }
+
+    .seccioncajas { margin-top: 25px;
+        padding: 20px;
+        width: 72%;
+        height: 1000px;
+        color:#94a3a4;   
+        float: left; 
+    border:ridge #2A4749;
+    
+
+    }
+
+    .cajasection { 
+
+        margin: 40px 10px;
+        width: 22%;
+        height: 350px;
+        float: left;
+        background-color: #2A4749  ;
+    }
+
+    .cajasection p {
+        text-align:justify;
+        padding: 2px 5px;
+    }
+    
+    .imgsection {width: 70%; 
+        float: left;
+        position: relative; top: -40px; left: 14%;
+        clear: both;
+        border: radius 5px;
+    
+    }
+
+    .imgsection2 {width: 70%; clear: both; 
+        
+        position: relative; top: -40px; left: 12%;
+    
+    }
+    
+    
+
+    
+    .banner { width: 20%;
+            background-image: url(../gallardobannerlateral.jpg);
+        padding: 2px;
+        float: right;
+        height: 600px;
+        
+    }
+    
+    .highlight1 {
+        background-color: rgba(5, 5, 5, 0.904);
+        color: rgba(199, 1, 1, 0.925);
+        padding: 15px;
+        margin-bottom: 15px; 
+    
+    }
+    
+     .logoriver {image-resolution: 25px; 
+        width: 30px; 
+        float: none;
+        }
+    
+    
+    .simple {
+        background-color: grey;
+        width: 50%;
+        padding: 15px;
+        float: left;
+        
+    }
+    
+    .imgsimple { width: 100%;
+    }
+    
+    
+    
+    .footer {clear: both; 
+        background-color:rgba(247, 2, 2, 0.938);
+        color: white;
+        padding: 2%; padding-left: 4%;
+        height: 150px;
+        
+    }
+    
+    .footerchicos {float: left;
+        margin-right: 35px;
+        
+    }
+    
+    .highlight1 h2 {color: white;
+        padding: 15px 0;
+        text-decoration-line: solid ;
+        
+    }
+    
+    .contacto-estudio {width: 25%; 
+        float: right;
+        margin-top: 25px;
+        background-color: #2A4749;
+    }
+    
+    .contacto-estudio h2 { text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5em; 
+        color:#94a3a4;
+        margin-top: 15px;
+        }
+    
+    .contacto-estudio span {font-size: 0,5em; color: darkgray; font-weight: 100;
+    }
+    
+    
+    
+    #formcontacto { background-color:#2A4749;
+        padding: 15px;
+        margin: 0 auto;
+        border-radius: 10px
+    
+    }
+    
+    
+    #formcontacto  input { width: 80%; 
+        margin: 10px;
+    padding: 10px;
+    font-size: 1,2em;
+    }
+    
+    #formcontacto input[type="checkbox"] {width: auto;}
+    
+    #formcontacto input[type="radio"] {width: auto;}
+    
+    #formcontacto textarea {width: 80%; height: 90px;}
+    
+    #formcontacto  select { width: 80%; 
+        margin: 10px;
+       padding: 10px; 
+       font-size: 1,2em;
+    }
+
