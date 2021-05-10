@@ -63,7 +63,8 @@
 .luna {width: 30%;
 height: 150px;
 position: absolute;
-left: 20% ;}
+left: 20% ;
+transition-duration: 3s;}
 
 .luna :hover { 
     width: 90%;
@@ -82,13 +83,17 @@ top: 40%;
 .meteoro {width: 20%;
 position: absolute;
 right: 25%;
-top: 20%}
+top: 20%;
+transition-duration: 3s;
+transition-property: all; 
+}
 
 .meteoro :hover {height: 300px;
-
     position: relative;
-    top: 25%;
-    right: 30%;}
+    top: 22%;
+    right: 30%;
+    filter: sepia(1);
+    }
 
 .logo { width: 15%;
     position: absolute;
