@@ -1,0 +1,42 @@
+
+
+.header {background-color: crimson;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+    
+
+
+.navbar {
+
+}
+
+
+.logo {
+
+}
+
+
+
+.contenedor {
+    background-color: blue;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    /*define el eje principal*/
+    flex-wrap: wrap;
+/* Atajo: flex-flow: direction + wrap*/;
+}
+
+.item {
+    background-color: cornsilk;
+    width: 33%;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+
+    
+}
