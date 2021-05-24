@@ -17,70 +17,31 @@
     
     
     
-    .navbar {background-color:#2A4749;     
-        color:white /*no toma el color del hipervinculo poruqe tenes que modificarlo cada uno*/;
-        height: 80px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-              
-        position: sticky; z-index: 2000;
-        top: 0%;
-               
-    
+    .navbar {background-color:#2a4749;  
+        height: 90px;   
+                      
+        
+        
     }
     
-    .navbar div {
-        height: 50px;
-        margin: 0;
-        border: solid red 1px;
-        font-family: 'Montserrat',"Open Sans Condensed", Verdana, Geneva, Tahoma, sans-serif;
-        
-        
-    
-    }
-    .navbar div :hover {
-            
-        transform: translateY(-10px);
-        transform: scaley (2,5);
-    
-        }
-    
-    .navbar figure {
-        width: 220px;
-        height: auto;
-        overflow: hidden;
-        
-        margin-top: 15px;
-        border: solid red 1px;
-           
+   
+
+    .navbar a {
+        color: #747a7a;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
      
-    .navbar img {
-        height: 55px;
-        overflow: hidden;
-        margin:0;
-        
-                      
+    .logonav {
+        width: 100%;
     }
-      
-        
-        .navbar a {
-            color:#94a3a4;
-            text-decoration: none;
-            
-    
-        }
-        /*pseudoclases*/
-    
-        
-       
     
     
     
     .header { 
         width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
-        background-image:url(/Proyecto-estudio/imagenes/santafe.header.bn.jpeg); 
+        background-image:url(../Proyecto-estudio/imagenes/santafe.header.bn.jpeg); 
         height: 400px;
         
     }
@@ -151,8 +112,8 @@
     }
     
     .sectioncajas {
-        margin-top: 15%;
-        margin-bottom: 15%;
+        padding-top: 10%;
+        margin-bottom: 5%;
         
     }
     
@@ -181,7 +142,8 @@
     
     
     .nosotros {
-        margin-top: 10%;
+        padding-top: 10%;
+        margin-bottom: 10%;
     }
     
     .nosotros h2 {
@@ -213,11 +175,11 @@
         }
         
         .footer {
-            margin-top: 15%;
+            
             padding-top: 3% ;
             width: 100%;
-            height: 400px;
-            background-color: #5f6666;
+            height: 350px;
+            background-color: #2A4749;
             
             
         }
@@ -226,6 +188,7 @@
             text-align: center;
             font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size: 20px;
+            color:#232525;
         }
         .footer p {
             text-align: center;
@@ -235,9 +198,18 @@
             display: flex;
             justify-content: center;
             align-self: center;
-            position: relative; 
+            position: relative;  
             
         }
+        .copyright {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative; top: -15px; 
+
+        }
+
+        
 
         
 
@@ -245,12 +217,15 @@
             height: auto;
             display: flex;
             justify-content: center;
+            margin-top: 8%;
+
                   
         
         }
         
         .iconosredes {
-            padding: 5% 0%;
+            padding-top: 10%; padding-left: 15%; padding-right: 15%;
+            margin-bottom: 7%;
         }
         
         
@@ -274,7 +249,7 @@
         
     .headercontacto {
         width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
-        background-image:url(/Proyecto-estudio/imagenes/santafe.header.bn.jpeg);
+        background-image:url(../Proyecto-estudio/imagenes/santafe.header.bn.jpeg);
         height: 600px;
     }
 
@@ -303,7 +278,6 @@
         
     }
     
-
         
     .contacto-estudio span {font-size: 0,5em; color:#232525; font-weight: 500;
     }
@@ -322,6 +296,7 @@
         margin: 2px;
     padding: 5px;
     font-size: 0,8em;
+    background-color:#94a3a4c2;
     }
 
     .horariocontacto {
@@ -329,16 +304,842 @@
         height: auto;
     }
     
-    #formcontacto input[type="checkbox"] {width: auto;}
+    #formcontacto input[type="checkbox"] {width: auto; 
+                color: #94a3a4c2;
+                margin: 0%;
+        }
+
     
     #formcontacto input[type="radio"] {width: auto; margin: 5px;
         padding: 10px; 
-        font-size: 0,8em;}
+        font-size: 0,8em;
+        background-color:#94a3a4c2}
     
-    #formcontacto textarea {width: 800px; height: 100px;}
+    #formcontacto textarea {width: 400px; height: 100px;
+        margin: 2px;
+        padding: 5px; 
+        background-color:#94a3a4c2
+    }
     
     #formcontacto  select { width: 400px; 
         margin: 2px;
        padding: 5px; 
        font-size: 0,8em;
+       background-color:#94a3a4c2
     }
+
+
+
+
+
+
+
+
+
+    /* media queries*/ 
+    /*extragrande -- 1201px a 3000px*/ 
+    /*Grande -- 990px a 1200px.*/
+    /* Medianos -- 575px a 989px*/
+    /* Pequeños -- 0px a 574px*/
+
+
+    /*GRANDE*/
+
+   @media screen and (min-width:990px) and (max-width:1200px){
+       #contenedorgeneral {width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 1100px;
+       
+        
+    }
+    
+    
+    .navbar {background-color:#2a4749;  
+        height: 20%;   
+                              
+        
+        
+    }
+    
+   
+
+    .navbar a {
+        color: #747a7a;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .section3 h3 {
+        text-decoration-color: #2A4749;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: justify;
+        font-style: oblique;
+        margin-top: 5%;
+
+    }
+
+
+    .nosotros h2 {
+        font-size: 30px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: -2px;
+        text-decoration-color: #2A4749;
+    }
+    
+    
+    .nosotros p {
+        margin-top: 2%;
+        font-size: 15px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        text-align: justify ;
+    }
+    
+      
+
+
+   }
+       
+
+
+
+   
+
+    /*MEDIANO*/
+    
+    @media screen and (min-width:575px) and (max-width:989px){
+        #contenedorgeneral {width: 100%;
+         max-width: 1600px;
+         margin: 0 auto;
+         box-sizing: border-box;
+         height: 1100px;
+        
+         
+     }
+     
+     
+     .navbar {background-color:#2a4749;  
+         height: 20%;   
+                               
+         
+         
+     }
+     
+    
+ 
+     .navbar a {
+         color: #747a7a;
+         font-size: 12px;
+         font-weight: 400;
+         font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+     .navbar figure {
+        width: 30%;
+    }
+     
+     
+    .header { 
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image:url(../Proyecto-estudio/imagenes/santafe.header.bn.jpeg); 
+        height: 400px;
+        
+    }
+    .header h1 {
+        text-decoration-color: #232525;     
+     font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-weight: 600;      text-align: center;      font-size: 3em ; 
+     width: 80%;
+     height: 150px;
+     background: #5f6666a9;
+     position: relative; left:10%; top: 18%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    
+    .section2 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 85%;
+        height: auto;
+        
+    }
+
+    .section2 h2 {
+        text-decoration-color: #2A4749;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    .section3 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        padding-bottom: 10%;
+        width: 95%;
+        height: auto;
+        border-bottom: solid #2A4749;
+
+
+    }
+
+    .section3 h3 {
+        text-decoration-color: #2A4749;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: justify;
+        font-style: oblique;
+        margin-top: 5%;
+
+    }
+
+    .section3 button { 
+        width: 100%;
+        height: 80px;
+        background-color: #2A4749;
+        position: relative; top: 8%;
+    }
+    
+    .section3 a {
+        text-decoration-color: #5f6666;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .sectioncajas {
+        padding-top: 10%;
+        margin-bottom: 5%;
+        
+    }
+    
+    .sectioncajas h2 {
+        position: relative; top: -70px;
+        text-align:center ;
+        font-size: 25px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        
+    }
+    
+    .sectioncajas h3 {
+        margin-top: 5%;
+        padding-top: 2%;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-decoration-color:#2A4749;
+        text-align: center;
+        
+    }
+
+    .imgsection {
+        width: 100%;
+    }
+    
+    
+    
+    .nosotros {
+        padding-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .nosotros h2 {
+        font-size: 30px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: -2px;
+        text-decoration-color: #2A4749;
+    }
+    
+    
+    .nosotros p {
+        margin-top: 2%;
+        font-size: 15px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        text-align: justify ;
+    }
+    
+    
+    
+    .logoestudio {float: left;
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px ;} 
+        
+        .logoestudio :hover {float: left;
+            padding-bottom: 25px; 
+            
+        }
+        
+        .footer {
+            
+            padding-top: 3% ;
+            width: 100%;
+            height: 350px;
+            background-color: #2A4749;
+            
+            
+        }
+
+        .footer h4 {
+            text-align: center;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:#232525;
+        }
+        .footer p {
+            text-align: center;
+        }
+
+        .logofooter {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative;  
+            
+        }
+        .copyright {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative; top: -15px; 
+
+        }
+
+        
+
+        
+
+        .iconocontacto {width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 8%;
+
+                  
+        
+        }
+        
+        .iconosredes {
+            padding-top: 10%; padding-left: 15%; padding-right: 15%;
+            margin-bottom: 7%;
+        }
+        
+        
+        
+        a{color: #94a3a4;
+            
+        }
+    
+    a:hover {
+        text-decoration: overline #94a3a4 ;
+        padding: 5px;
+        
+        
+    }
+    
+        
+
+
+    
+    
+        
+    .headercontacto {
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image:url(../Proyecto-estudio/imagenes/santafe.header.bn.jpeg);
+        height: 600px;
+    }
+
+    .headercontacto h1 {
+        
+    text-decoration-color: #232525;     
+     font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-weight: 600;      text-align: center;      font-size: 2,5em ; 
+     width: 80%;
+     height: 10%;
+     background: #5f6666a9;
+     position: relative; top: 10%; left: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    .contacto-estudio {width: 80%; 
+        margin-top: 25px;
+        background: #5f6666d3;
+        position: relative; top: 10%; left: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+        
+        
+    }
+    
+        
+    .contacto-estudio span {font-size: 0,5em; color:#232525; font-weight: 500;
+    }
+    
+    
+    
+    #formcontacto { 
+        padding: 15px;
+        margin: 0 auto;
+        border-radius: 10px
+    
+    }
+    
+    
+    #formcontacto  input { width: 400px; 
+        margin: 2px;
+    padding: 5px;
+    font-size: 0,8em;
+    background-color:#94a3a4c2;
+    }
+
+    .horariocontacto {
+        width: 50px;
+        height: auto;
+    }
+    
+    #formcontacto input[type="checkbox"] {width: auto; 
+                color: #94a3a4c2;
+                margin: 0%;
+        }
+
+    
+    #formcontacto input[type="radio"] {width: auto; margin: 5px;
+        padding: 10px; 
+        font-size: 0,8em;
+        background-color:#94a3a4c2}
+    
+    #formcontacto textarea {width: 400px; height: 100px;
+        margin: 2px;
+        padding: 5px; 
+        background-color:#94a3a4c2
+    }
+    
+    #formcontacto  select { width: 400px; 
+        margin: 2px;
+       padding: 5px; 
+       font-size: 0,8em;
+       background-color:#94a3a4c2
+    }
+
+
+       
+ 
+ 
+    }
+    
+
+
+
+
+    /*PEQUEÑO*/
+    
+    @media screen and (min-width:100px) and (max-width:575px){
+        #contenedorgeneral {width: 100%;
+         max-width: 1600px;
+         margin: 0 auto;
+         box-sizing: border-box;
+         height: 1100px;
+        
+                  
+     }
+     
+     
+     .navbar {background-color:#2a4749;  
+         height: 20%;   
+                               
+         
+         
+     }
+ 
+     .navbar div {
+         width: 70px;
+         position: relative; right: 8%;
+     }
+
+
+     .navbarsm {
+         display: flex;
+         justify-content: space-around
+         
+     }
+    
+ 
+     .navbar a {
+         color: #747a7a;
+         font-size: 10px;
+         font-weight: 400;
+         font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+     .navbar figure {
+        width: 40%;
+    }
+
+
+   
+
+    .header { 
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image:url(../Proyecto-estudio/imagenes/santafe.header.bn.jpeg); 
+        height: 250px;
+        
+    }
+    .header h1 {
+        text-decoration-color: #232525;     
+     font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-weight: 600;      text-align: center;      font-size: 22px ; 
+     width: 90%;
+     height: 80px;
+     background: #5f6666a9;
+     position: relative; left:5%; top: 18%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    
+    .section2 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 85%;
+        height: auto;
+        
+    }
+
+    .section2 h2 {
+        text-decoration-color: #2A4749;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+
+    .section3 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        padding-bottom: 10%;
+        width: 95%;
+        height: auto;
+        border-bottom: solid #2A4749;
+
+
+    }
+
+    .section3 h3 {
+        text-decoration-color: #2A4749;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: justify;
+        font-style: oblique;
+        margin-top: 5%;
+
+    }
+
+    .section3 button { 
+        width: 100%;
+        height: 35px;
+        background-color: #2A4749;
+        position: relative; top: 8%;
+    }
+    
+    .section3 a {
+        text-decoration-color: #5f6666;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    
+    .sectioncajas {
+        padding-top: 10%;
+        margin-bottom: 5%;
+        
+    }
+    
+    .sectioncajas h2 {
+        position: relative; top: -40px;
+        text-align:center ;
+        font-size: 18px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        margin-top: 5%;
+        
+    }
+    
+    .sectioncajas h3 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-top: 2%;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-decoration-color:#2A4749;
+        text-align: center;
+        position: relative; top: -50px;
+        
+    }
+
+    .imgsection {
+        width: 100%;
+    }
+    
+    
+    
+    .nosotros {
+        padding-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .nosotrossm { width: 150px;
+
+
+    }
+
+
+    .nosotros h2 {
+        font-size: 20px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: -2px;
+        text-decoration-color: #2A4749;
+    }
+
+    .nosotros span {
+        font-size: 14px;
+    }
+
+    .imgnosotros { 
+        display:none
+    }
+    .nosotros div {
+        width: 150px;
+        
+    }
+    
+    
+    .nosotros p {
+        margin-top: 2%;
+        font-size: 10px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        text-align: justify ;
+    }
+    
+    
+    
+    .logoestudio {float: left;
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px ;} 
+        
+        .logoestudio :hover {float: left;
+            padding-bottom: 25px; 
+            
+        }
+        
+        .footer {
+            
+            padding-top: 3% ;
+            width: 100%;
+            height: 450px;
+            background-color: #2A4749;
+            display:flex;
+            flex-direction:row;
+            
+            
+        }
+
+        .smimage {
+            width: 70%;
+            position: relative; left: 15%;
+        }
+
+       
+
+        .footer h4 {
+            text-align: center;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;
+            color:#232525;
+            position: relative; top: -50px;
+        }
+        .footer p {
+            text-align: center;
+            position: relative; top: -15px;
+        }
+
+        .smcol {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logofooter {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative;  
+            
+        }
+        .copyright {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative; top: -15px; 
+
+        }
+
+        .smnone {
+            display: none;
+        }
+
+        .smicono {
+            width: 40%;
+            align-self: center;
+            position: relative; top: -10px;
+        }
+
+        .smiconomail {
+            width: 20%;
+            position: relative; top: -20px
+        }
+
+        
+        
+
+        
+
+        .iconocontacto {width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 8%;
+
+                  
+        
+        }
+        
+        .iconosredes {
+            padding-top: 10%; padding-left: 15%; padding-right: 15%;
+            margin-bottom: 7%;
+        }
+        
+        
+        
+        a{color: #94a3a4;
+            
+        }
+    
+    a:hover {
+        text-decoration: overline #94a3a4 ;
+        padding: 5px;
+        
+        
+    }
+    
+        
+
+
+    
+    
+        
+    .headercontacto {
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image:url(../Proyecto-estudio/imagenes/santafe.header.bn.jpeg);
+        height: 600px;
+    }
+
+    .headercontacto h1 {
+        
+    text-decoration-color: #232525;     
+     font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-weight: 600;      text-align: center;      font-size: 2,5em ; 
+     width: 80%;
+     height: 10%;
+     background: #5f6666a9;
+     position: relative; top: 10%; left: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    .contacto-estudio {width: 80%; 
+        margin-top: 25px;
+        background: #5f6666d3;
+        position: relative; top: 10%; left: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+        
+        
+    }
+    
+        
+    .contacto-estudio span {font-size: 0,5em; color:#232525; font-weight: 500;
+    }
+    
+    
+    
+    #formcontacto { 
+        padding: 15px;
+        margin: 0 auto;
+        border-radius: 10px
+    
+    }
+    
+    
+    #formcontacto  input { width: 400px; 
+        margin: 2px;
+    padding: 5px;
+    font-size: 0,8em;
+    background-color:#94a3a4c2;
+    }
+
+    .horariocontacto {
+        width: 50px;
+        height: auto;
+    }
+    
+    #formcontacto input[type="checkbox"] {width: auto; 
+                color: #94a3a4c2;
+                margin: 0%;
+        }
+
+    
+    #formcontacto input[type="radio"] {width: auto; margin: 5px;
+        padding: 10px; 
+        font-size: 0,8em;
+        background-color:#94a3a4c2}
+    
+    #formcontacto textarea {width: 400px; height: 100px;
+        margin: 2px;
+        padding: 5px; 
+        background-color:#94a3a4c2
+    }
+    
+    #formcontacto  select { width: 400px; 
+        margin: 2px;
+       padding: 5px; 
+       font-size: 0,8em;
+       background-color:#94a3a4c2
+    }
+       
+ 
+ 
+    }
+
+
+
+
+
+    
