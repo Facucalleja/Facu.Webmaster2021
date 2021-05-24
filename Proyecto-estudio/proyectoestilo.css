@@ -1359,7 +1359,7 @@
     .headercontacto {
         width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
         background-image:url(../Proyecto-estudio/imagenes/santafe.header.bn.jpeg);
-        height: 800px;
+        height: 700px;
     }
 
     .headercontacto h1 {
@@ -1404,7 +1404,7 @@
     #formcontacto  input { width: 200px; 
         margin: 1px;
     padding: 2px;
-    font-size: 0,8em;
+    font-size: 10px;
     background-color:#94a3a4c2;
     }
 
@@ -1414,13 +1414,14 @@
     }
     
     #formcontacto input[type="checkbox"] {width: auto; 
+        padding: 1px;
                 color: #94a3a4c2;
                 margin: 0%;
         }
 
     
-    #formcontacto input[type="radio"] {width: auto; margin: 5px;
-        padding: 10px; 
+    #formcontacto input[type="radio"] {width: auto; margin: 2px;
+         padding: 1px; 
         font-size: 0,8em;
         background-color:#94a3a4c2}
     
@@ -1431,8 +1432,8 @@
     }
     
     #formcontacto  select { width: 200px; 
-        margin: 2px;
-       padding: 3px; 
+        margin: 1px;
+       padding: 2px; 
        font-size: 0,8em;
        background-color:#94a3a4c2
     }
