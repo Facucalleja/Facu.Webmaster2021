@@ -61,82 +61,72 @@
         
         <header class="headercontacto">
             <h1>CONTACTO</h1>
-            <section class="contacto-estudio">
+            <section class="container contacto-estudio justify-content-between">
           
                                                           
-                <form class="row" action="" method="POST" id="formcontacto" netlify>
-                    <div class="col col-md-6 col-lg-6 col-xl-6">
+                <form class="row justify-content-lg-around justify-content-sm-around justify-content-md-around" action="" method="POST" id="formcontacto" netlify>
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-6">
                             <label>
                                 <span>Nombre y Apellido</span> <br>
-                                <input type="text" name="nombre"> 
-                            </label>
-                            <label>
+                                <input class="displayblockxs" type="text" name="nombre"> 
+                            
+                            
                                 <span>Email</span> <br>
-                                <input type="text" name="Email">                
-                            </label>
-                            <label>
+                                <input class="displayblockxs" type="text" name="Email">                
+                            
+                            
                                 <span>Telefono</span> <br>
-                                <input type="text" name="telefono"> 
+                                <input class="displayblockxs" type="text" name="telefono"> 
+
+                                <span> Preferencia de contacto </span> <br>
+                                
+                                <Input type="radio" name="prefierocontacto" value="telefono">Telefono</Input>
+                                <Input type="radio" name="prefierocontacto" value="email">Email</Input>      
                             </label>
-                            <label>
-                                <span>Provincia</span> <br>
-                                <select type="text" name="Localidad"> 
-                                    <option value="entrerios">Entre Rios</option>  
-                                    <option value="santafe">Santa Fe</option> 
-                                                                    
-                            </label>  
-    
-                           
+                            
                                                        
                     </div>
                     
-                    <div class="col col-md-6 col-lg-6 col-xl-6">
-                        <label for="">
-                            <span>Preferencia de contacto</span> 
-                            <div>
-                                <Input type="radio" name="prefierocontacto" value="telefono">Telefono</Input>
-                                <Input type="radio" name="prefierocontacto" value="email">Email</Input>                             
-                            </div>
-                        </label>
-                        <label>
-                            <span>Genero</span>
-                            <div>
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-6">
+                            <span>Provincia</span> <br>
+                            <select class="displayblockxs" type="text" name="Localidad"><br> 
+                                <option value="entrerios">Entre Rios</option>  
+                                <option value="santafe">Santa Fe</option>                                         
+                                                       
+                                                   
+                                <div>
+                            <span>Genero</span> <br>
                                 <Input type="radio" name="Genero" value="Femenino">Femenino</Input>
                                 <Input type="radio" name="Genero" value="Masculino">Masculino</Input>
-                                <Input type="radio" name="Genero" value="Otro">Otro</Input>
-                            </div>
-                        </label>
-                        
-                        
-                        <label for="">
-                            <span>Consulta</span>
-                            <br>
-                            <textarea name="Consulta"> </textarea>
-                        </label>
-                        
-                        
-                            <label for="aceptacioncondiciones">
+                                <Input type="radio" name="Genero" value="Otro">Otro</Input><br>
+                                <span>Consulta</span>
+                                <br>
+                                <textarea name="Consulta"> </textarea><br>
                                 <input type="checkbox" name="suscripcion" value="true">
                                 <span>Acepto los terminos y condiciones del sitio</span>
-                            </label>
+                            </div>
+                                               
+                                               
                         
+                            
+                                <div>
+                                
+                            
+                                                                           
+                                                       
+                            
+                                    <button>
+                                        <input type="submit" value="Enviar consulta">
+                                    </button>
+                                </div>
+                                
+                                
+                            </div>    
                         
                     </div>
                  
                             
-                        <div class="justify-content-center">
-
-                                                        
-                                                       
-                            
-                            <div>
-                                <button>
-                                    <input type="submit" value="Enviar consulta">
-                                </button>
-                            </div>
-                            
-                            
-                        </div>                        
+                                            
                             
                         </form> 
                     </section> 
