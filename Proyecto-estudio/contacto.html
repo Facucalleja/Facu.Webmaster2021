@@ -64,19 +64,20 @@
             <section class="container contacto-estudio justify-content-between">
           
                                                           
-                <form class="row justify-content-lg-around justify-content-sm-around justify-content-md-around" action="" method="POST" id="formcontacto" netlify>
+                <form class="row justify-content-lg-around justify-content-sm-around justify-content-md-around" action="enviardatos.php" method="POST" id="formcontacto">
                     <div class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-6">
                             <label>
-                                <span>Nombre y Apellido</span> <br>
-                                <input class="displayblockxs" type="text" name="nombre"> 
+                                <span>Nombre</span> <br>
+                                <input class="displayblockxs" type="text" name="nombre" placeholder="Nombre"> 
+                                <span>Apellido</span> <br>
+                                <input class="displayblockxs" type="text" name="apellido" placeholder="Apellido">
                             
                             
                                 <span>Email</span> <br>
-                                <input class="displayblockxs" type="text" name="Email">                
-                            
+                                <input class="displayblockxs" type="text" name="Email" placeholder="Email">                
                             
                                 <span>Telefono</span> <br>
-                                <input class="displayblockxs" type="text" name="telefono"> 
+                                <input class="displayblockxs" type="text" name="telefono" placeholder="Telefono"> 
 
                                 <span> Preferencia de contacto </span> <br>
                                 
@@ -91,7 +92,11 @@
                             <span>Provincia</span> <br>
                             <select class="displayblockxs" type="text" name="Localidad"><br> 
                                 <option value="entrerios">Entre Rios</option>  
-                                <option value="santafe">Santa Fe</option>                                         
+                                <option value="santafe">Santa Fe</option>
+                                <option value="cordoba">Cordoba</option>  
+                                <option value="corrientes">Corrientes</option>  
+                                <option value="buenosaires">Buenos Aires</option>  
+                                <option value="capital">C.A.B.A.</option>                                       
                                                        
                                                    
                                 <div>
@@ -101,21 +106,22 @@
                                 <Input type="radio" name="Genero" value="Otro">Otro</Input><br>
                                 <span>Consulta</span>
                                 <br>
-                                <textarea name="Consulta"> </textarea><br>
+                                <textarea name="Consulta" placeholder="Escribinos tu consulta"> </textarea><br>
                                 <input type="checkbox" name="suscripcion" value="true">
-                                <span>Acepto los terminos y condiciones del sitio</span>
+                                <span>Acepto los terminos y condiciones del sitio</span> <br>
+                                
+                                <input class="form-check-input" type="checkbox" id="invalidCheck" name="newsletter" value="true" checked>
+                                    <label class="form-check-inline" for="invalidCheck">
+                                      <span >Deseo recibir noticias referidas a la consulta y suscribirme al newsletter del estudio juridico.</span> 
+                                    </label>
+                                    
                             </div>
                                                
                                                
                         
+                                       
                             
-                                <div>
-                                
-                            
-                                                                           
-                                                       
-                            
-                                    <button>
+                                    <button class="btn btn-outline-primary">
                                         <input type="submit" value="Enviar consulta">
                                     </button>
                                 </div>
