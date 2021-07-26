@@ -271,7 +271,7 @@
         
     .headercontacto {
         width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
-        background-color: #5f6666;
+        background-image: url(/imagenes/santafe.header.bn.jpeg);
         height: 600px;
     }
 

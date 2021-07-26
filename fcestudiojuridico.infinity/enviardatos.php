@@ -12,9 +12,9 @@
 </head>
 <body>
 
-<php?
+<?php
 include 'header.html';
-if((include 'header.html') == true) {echo 'esta correcto'};
+if((include 'header.html') === true) {echo 'esta correcto'};
 
 ?>
     
