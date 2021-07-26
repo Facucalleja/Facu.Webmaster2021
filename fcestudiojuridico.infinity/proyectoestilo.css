@@ -60,7 +60,7 @@
     
     .header { 
         width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
-        background-image:url(../imagenes/santafe.header.bn.jpeg); 
+        background-image:url(/imagenes/santafe.header.bn.jpeg); 
         height: 400px;
         
     }
@@ -271,7 +271,7 @@
         
     .headercontacto {
         width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
-        background-image:url(../imagenes/santafe.header.bn.jpeg);
+        background-image:url(../fcestudiojuridico.infinity/imagenes/santafe.banner.servicios.jpg);
         height: 600px;
     }
 
@@ -754,7 +754,7 @@
 
     .header { 
         width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
-        background-image:url(../imagenes/santafe.header.bn.jpeg); 
+        background-image:url(/imagenes/santafe.header.bn.jpeg); 
         height: 250px;
         
     }
