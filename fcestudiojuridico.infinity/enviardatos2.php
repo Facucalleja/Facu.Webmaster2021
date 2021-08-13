@@ -68,7 +68,7 @@ echo "<br>";
              
              //1) Conexion -> mysqli_connect('servidorMySQL','UserMySQL','Password_User_MySQL','nombreBD')
 
-             $conexion = mysqli_connect($host,$user,$password,$bbdd) or exit("Error en la conexion."); //tambien podemos usar die()
+             $conexion = new mysqli_connect($host,$user,$password,$bbdd) or exit("Error en la conexion."); //tambien podemos usar die()
              
              if ($conexion === true) {
                  echo "conexion exitosa";
@@ -79,7 +79,7 @@ echo "<br>";
              //2) mysqli_query(conexion, consultaMySQL)
              
              // Consulta 1 -> nuevo Contacto
-             $consulta_alta = "INSERT INTO contactos VALUES (nombre,apellido,telefono,email,mensaje,fecha envio) VALUES('$nombre', '$apellido', '$telefono', '$email' ,'$mensaje','$fechaEnvio')";
+             $consulta_alta = "INSERT INTO `contactos` VALUES('','$nombre', '$apellido', '$telefono', '$email' ,'$mensaje','$fechaEnvio')";
              $consulta = mysqli_query($conexion,$consulta_alta); 
              
              //verificar si se hace la consulta
