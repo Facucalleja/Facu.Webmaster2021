@@ -1,0 +1,35 @@
+
+
+<div class="container my-5">
+    <h1>{{data.titulo}}</h1>
+    <hr>
+
+    <form action="" method="post" class="w-50">
+        <input required class="form-control my-2" type="text" name="nombre" id="" placeholder="ingrese su nombre">
+        <input required class="form-control my-2" type="email" name="email" id="" placeholder="ingrese su email">
+        <input required class="form-control my-2" type="text" name="ubicacion" id="" placeholder="localidad y barrio de interes">
+        <div class="checkbox">
+        <label>
+        <input type="checkbox" name="opcion" value="vender">Vender 
+        </label>
+        <label>
+        <input type="checkbox" name="opcion" value="comprar">Comprar 
+        </label>
+        <label>
+        <input type="checkbox" name="opcion" value="alquilar">Alquilar 
+        </label>
+        </div>
+
+        <textarea required class="form-control my-2 textareas" name="mensaje" id="" placeholder="Mensaje"></textarea>
+        <div class="text-end">
+            <input type="submit" value="Enviar" class="btn btn-primary">
+        </div>
+    </form>
+
+
+
+    {{!-- {{#if user}}
+        <p class='alert alert-success'>Hola {{user.nombre}}, {{user.email}}</p>
+    {{/if}} --}}
+</div>
+
