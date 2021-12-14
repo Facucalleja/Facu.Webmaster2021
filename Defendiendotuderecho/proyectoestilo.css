@@ -1,0 +1,2168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+
+*{border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+  
+
+
+
+
+    /* media queries*/ 
+    /*extragrande -- 1201px a 3000px*/ 
+    /*Grande -- 990px a 1200px.*/
+    /* Medianos -- 575px a 989px*/
+    /* Pequeños -- 0px a 574px*/
+
+
+    /*GRANDE y extragrande*/
+
+   @media screen and (min-width:990px) and (max-width:2300px){
+      
+      
+    #contenedorgeneral {width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 1100px;
+        background-color: #e4e3e3;
+        
+    }
+        
+    .barritainfo {
+        width: 100%;
+        height: 25px;
+        background-color: #e4e3e3;
+        justify-content: flex-end;
+    }
+   
+    .barritainfo span {
+        font-size: 80%;
+        font-weight:300;
+        align-self:flex-end;
+    }
+
+    .logotel {
+        size: 100%;
+    }
+
+
+
+
+    .navbar {background-color:#244065;  
+        height: 90px;   
+        margin-bottom: 3px;
+                      
+        
+        
+    }
+    
+    .barraseparadora {
+        height: 2px;
+        background-color: #c4cece;
+    }
+   
+
+    .navbar a {
+        color: #e4e3e3;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+    }
+
+    .logonav {
+        width: 100%;
+    }
+    
+    .figurecontacto {
+        width: 30%;
+    }
+    
+    .header { 
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image: url(/imagenes/santafe.header.bn.jpeg);
+        height: 65vh;
+        margin-top: 1%;
+        
+    }
+
+    .textoheader {
+        text-align: center;
+        color: #c4cece;
+        height: 70%;
+        width: 80%;
+        position: relative; top: 32%;
+        background-color: #17181893;
+        
+            
+    }
+
+    .logobanner {
+        width: auto;
+        height: 80%;
+        position: relative; top: 26%; left: 2%;
+
+    }
+
+    .carruseldiv {
+        background-color:#23252557;
+        width: 95%;
+        height: 85%;
+    }
+    
+    .header h3 {text-align: center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: relative; top: 15%;
+        font-weight: 400;
+        margin-top: 4%;
+        font-style: italic;
+    }
+    
+    .header h4 {
+        text-align: center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+    }
+
+    .header h5 {
+        text-align: center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: relative; top: 12%;
+        font-weight: 400;
+    }
+
+
+    .header h2 {
+        text-align:center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:500;
+        font-size: 2.5em;
+        position: relative; top: 35%;
+        margin-top: 5%;
+    }
+
+    .sectionheader {
+        height: 25%;
+        width: 100%;
+        background-color: #171818a1;
+        margin-top: 5%;
+        padding-top: 1%;
+    }
+    
+.header button {
+    width: 40%;
+    height: 60px;
+    position: relative;
+background-color: #244065;
+color: #c4cece;
+font-weight: 400 ;
+margin-top: 10%;
+}
+
+
+/*.carda{
+    color: #244065;
+    text-align: center;
+} 
+*/
+.card a {
+    text-decoration: none;
+    text-align: center;
+    color: #244065;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+
+.areasdepractica {
+    
+    margin-top: 15%;
+}
+
+.areasdepractica h3 {
+    text-align: end;
+    color: #244065;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+#areajubilacion {
+    margin-top: 8%;
+}
+
+#areajubilacion button {
+    width: 100%;
+    height: 80px;
+    background-color:#244065;
+    color: #c4cece;
+
+} 
+
+.jubilacion {
+    width: 100%;
+    height: 250px;
+    padding-top: 1%;
+    background-image: url(/imagenes/bannerjubilacion.jpg);
+    text-align: center;
+}
+
+.jubilacion h2 {
+    font-weight: bold;
+    position: relative; left: 15%; 
+    margin-top: 5%;
+}
+
+.jubilacion h5 {
+    font-style: italic;
+    font-weight: 400;
+    position: relative; left: 15%; top: -5%;
+    
+}
+
+.jubilacion input {
+    margin: 1% 0%;
+}
+
+.btnjubilacion {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 50px;
+    width: 100px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.sectionfinancieras {
+    margin-top: 5%;
+    width: 100%;
+    height: 250px;
+    padding-top: 1%;
+    background-image: url(/imagenes/problemasfinancieros.png);
+    text-align: center;
+}
+
+.sectionfinancieras h2 {
+    font-weight: bold;
+    margin-top: 5%;
+    color: #244065;
+    text-align: center;
+}
+
+.sectionfinancieras h4 {
+    width: 100%;
+    height: 50px ;
+    background-color:#e4e3e39a;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+}
+        
+
+
+.sectionfinancieras h3 {
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 5%;
+    color: #244065;
+    text-align: center;
+    position: relative; top: 5%;
+}
+
+
+.sectionfinancieras input {
+    margin: 1% 0%;
+}
+
+.sectionfinancieras button {
+    width: 40%;
+    height: 60px;
+    position: relative;
+background-color: #244065;
+color: #c4cece;
+font-weight: 400 ;
+margin-top: 10%;
+}
+
+.botonconsulta {
+    margin-top:20%;
+    height: 10%;
+    width: 30%;
+    background-color: #244065;
+    position: relative; left: 35%;
+}
+
+
+
+
+.fondodiagonal {
+    background-color: #232525;
+    width: 80%;
+    height: 100%;
+    transition: (30deg);
+}
+
+    .section2 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 85%;
+        height: auto;
+        
+    }
+
+    .section2 h2 {
+        text-decoration-color: #2A4749;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 400;
+        font-size: 26px;
+        text-align: center;
+        
+    }
+
+    .section3 {
+        margin-top: 20%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
+        width: 95%;
+        height: 60vh;
+        
+
+
+    }
+
+    .section3 h4 {
+        color: #244065;
+        font-weight: 400;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+    } 
+
+    .section3 h3 {
+        text-decoration-color: #2A4749;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: justify;
+        
+
+    }
+
+    .section3 h2 {
+        color: #171818;
+        font-weight: 350;
+    }
+
+    .section3 button { 
+        width: 100%;
+        height: 80px;
+        background-color: #2A4749;
+        position: relative; top: 8%;
+    }
+
+    #areaspracticas a {
+        color: #171818;
+        text-decoration: none ;
+    }
+    
+    .section3 a {
+        text-decoration-color: #5f6666;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .sectioncajas {
+        padding-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+    
+    .sectioncajas h2 {
+        
+        text-align:center ;
+        font-size: 25px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        
+    }
+    
+    .sectioncajas h3 {
+        margin-top: 5%;
+        padding-top: 2%;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-decoration-color:#2A4749;
+        text-align: center;
+        
+    }
+
+    .imgsection {
+        width: 100%;
+    }
+    
+    
+    
+    .postnosotros {
+        width: 100%;
+        height: 70px;
+        padding-top: 0%;
+        margin-bottom: 10%;
+    }
+    
+    .nosotros h2 {
+        font-size: 30px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: -2px;
+        text-decoration-color: #2A4749;
+    }
+    
+    
+    .nosotros p {
+        margin-top: 2%;
+        font-size: 15px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        text-align: justify ;
+    }
+    
+    
+    
+    .logoestudio {float: left;
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px ;} 
+        
+        .logoestudio :hover {float: left;
+            padding-bottom: 25px; 
+            
+        }
+        
+        .footer {
+            
+            padding-top: 1% ;
+            width: 100%;
+            height: 350px;
+            background-color:#244065;
+            
+            
+        }
+
+        .footer h4 {
+            text-align: center;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:#232525;
+        }
+        .footer p {
+            text-align: center;
+        }
+
+        .logofooter {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative;  
+            
+        }
+        .copyright {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative; top: -15px;
+            color: #e4e3e3;
+
+        }
+
+        
+
+        
+
+        .iconocontacto {width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 8%;
+
+                  
+        
+        }
+        
+        .iconosredes {
+            padding-top: 10%; padding-left: 15%; padding-right: 15%;
+            margin-bottom: 7%;
+        }
+        
+        
+        
+        a{color: #94a3a4;
+            
+        }
+    
+    a:hover {
+        
+        padding: 5px;
+        
+        
+    }
+    
+        
+    
+    .headerdatos {
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image: url(/imagenes/santafe.header.bn.jpeg);
+        height: 400px;
+    }
+        
+    .headercontacto {
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image: url(/imagenes/santafe.header.bn.jpeg);
+        height: 600px;
+    }
+
+    .headercontacto h1 {
+        
+    text-decoration-color: #232525;     
+     font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-weight: 600;      text-align: center;      font-size: 2,5em ; 
+     width: 80%;
+     height: 10%;
+     background: #5f6666a9;
+     position: relative; top: 10%; left: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+
+
+    .contacto-estudio {width: 100%; 
+        margin-top: 2%;
+        background: #5f6666d3;
+        position: relative; top: 10%;
+   
+        
+        
+    }
+    
+        
+    .contacto-estudio span {font-size: 0,5em; color:#232525; font-weight: 400;
+        width: 100%;
+    }
+    
+    
+    
+    #formcontacto { 
+        padding: 15px;
+        margin-top: 10% auto;
+        border-radius: 10px;
+    
+    }
+
+    #formcontacto  label {width: 400px;}
+
+    
+    #formcontacto  input {width: 400px; 
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 0,8em;
+    background-color:#94a3a4c2;
+    }
+
+    .horariocontacto {
+        width: 50px;
+        height: auto;
+    }
+    
+    #formcontacto input[type="checkbox"] {width: auto; 
+                color: #94a3a4c2;
+                margin: 0%;
+        }
+
+    
+    #formcontacto input[type="radio"] {width: auto; margin: 5px;
+        padding: 10px; 
+        font-size: 0,8em;
+        background-color:#94a3a4c2}
+    
+    #formcontacto textarea {width: 400px; height: 100px;
+        margin: 2px;
+        padding: 5px; 
+        background-color:#94a3a4c2
+    }
+    
+    #formcontacto  select { width: 100%; 
+        margin: 2px;
+       padding: 5px; 
+       font-size: 0,8em;
+       background-color:#94a3a4c2
+    }
+
+    }
+
+    .btnformconsulta { 
+        width: 60vh;
+        height: 40px;
+        background-color: #244065;
+        color:#244065;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    /*MEDIANO*/  /*MEDIANO*/  /*MEDIANO*/  /*MEDIANO*/  /*MEDIANO*/ /*MEDIANO*/
+
+
+
+
+
+
+    
+    @media screen and (min-width:575px) and (max-width:989px){
+       
+        #contenedorgeneral {width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            height:auto;
+            background-color: #a79898;
+            
+        }
+        
+        .barritainfo {
+            width: 100%;
+            height: 25px;
+            background-color: #e4e3e3;
+            justify-content: flex-end;
+        }
+       
+        .barritainfo span {
+            font-size: 80%;
+            font-weight:300;
+            align-self:flex-end;
+        }
+    
+        .logotel {
+            size: 100%;
+        }
+    
+    
+    
+    
+        .navbar {background-color:#244065;  
+            width: 100%;
+            height: 10%;   
+            margin-bottom: 2px;
+                          
+            
+            
+        }
+        
+        .barraseparadora {
+            height: 1px;
+            background-color: #c4cece;
+        }
+       
+    
+        .navbar a {
+            color: #e4e3e3;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: none;
+        }
+    
+        .logonav {
+            width: 80%;
+        }
+        
+        .figurecontacto {
+            width: 30%;
+        }
+        
+        .header { 
+            width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+            background-image: url(/imagenes/santafe.header.bn.jpeg);
+            height: 40vh;
+            margin-top: 1%;
+            
+        }
+    
+     /*   .textoheader {
+            text-align: center;
+            color: #c4cece;
+            height: 100%;
+            width: 80%;
+            position: relative; top: 32%;
+            background-color: #17181893;
+            
+                
+        }
+    */
+        .logobanner {
+            width: auto;
+            height: 50%;
+            display: none;
+        }
+    
+        
+        .carruseldiv {
+        background-color:#23252557;
+        width: 95%;
+        height: 80%;
+    }
+    
+        .header h3 {text-align: center;
+            color: #c4cece;
+            font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative; top: 15%;
+            font-weight: 350;
+            margin-top: 4%;
+            font-style: italic;
+        }
+        
+        .header h4 {
+           
+            text-align: center;
+            color: #c4cece;
+            font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+        }
+    
+        .header h5 {
+            text-align: center;
+            color: #c4cece;
+            font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative; top: 12%;
+            font-weight: 400;
+        }
+    
+    
+        .header h2 {
+            text-align:center;
+            color: #c4cece;
+            font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:400;
+            font-size: 2.3em;
+            position: relative; top: 35%;
+            margin-top: 5%;
+        }
+    
+        .sectionheader {
+            height: 25%;
+            width: 100%;
+            background-color: #171818a1;
+            margin-top: 5%;
+            padding-top: 1%;
+        }
+        
+
+    .textoheader {
+        width: 80vw;
+        height: 200px;
+        margin-top: 3%;
+    }    
+    
+    .btnconsultavirtal {
+        width: 40%;
+        height: 60px;
+       position: relative; left: 30%; bottom: 35%;
+        
+        
+    background-color: #244065;
+    color: #c4cece;
+    font-weight: 400 ;
+    margin-top: 10%;
+    }
+    
+    
+    /*.carda{
+        color: #244065;
+        text-align: center;
+    } 
+    */
+    .card {
+        
+        align-self: center;
+        width: 80%;
+    }
+
+    .card a {
+        text-decoration: none;
+        text-align: center;
+        color: #244065;
+    }
+    
+    .card a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .areasdepractica {
+        
+        margin-top: 15%;
+    }
+    
+    .areasdepractica h3 {
+        text-align: end;
+        color: #244065;
+        font-weight: 400;
+        font-style: italic;
+    }
+    
+    
+  
+    .sectionfinancieras {
+        margin-top: 5%;
+        width: 100%;
+        height: 250px;
+        padding-top: 1%;
+        background-image: url(/imagenes/problemasfinancieros.png);
+        text-align: center;
+    }
+    
+    .sectionfinancieras h2 {
+        font-weight: bold;
+        margin-top: 5%;
+        color: #244065;
+        text-align: center;
+    }
+    
+    .sectionfinancieras h4 {
+        width: 100%;
+        height: 50px ;
+        background-color:#e4e3e39a;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+    }
+            
+    
+    
+    .sectionfinancieras h3 {
+        font-style: italic;
+        font-weight: 500;
+        margin-top: 5%;
+        color: #244065;
+        text-align: center;
+        position: relative; top: 5%;
+    }
+    
+
+    .textcarrusel {
+        height: 125px;
+    }
+
+    .botonconsulta{
+        background-color: #244065;
+        position: relative; left: 18%;
+    }
+    
+    .sectionfinancieras input {
+        margin: 1% 0%;
+    }
+    
+    .sectionfinancieras button {
+        width: 40%;
+        height: 60px;
+        position: relative;
+    background-color: #244065;
+    color: #c4cece;
+    font-weight: 400 ;
+    margin-top: 10%;
+    }
+    
+    
+    
+    
+    .fondodiagonal {
+        background-color: #232525;
+        width: 80%;
+        height: 100%;
+        transition: (30deg);
+    }
+    
+        .section2 {
+            margin-top: 10%;
+            margin-bottom: 5%;
+            width: 85%;
+            height: auto;
+            
+        }
+    
+        .section2 h2 {
+            text-decoration-color: #2A4749;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 400;
+            font-size: 26px;
+            text-align: center;
+            
+        }
+    
+        .section3 {
+            margin-top: 5%;
+            margin-bottom: 2%;
+            padding-bottom: 2%;
+            width: 95%;
+            height: 60vh;
+            
+    
+    
+        }
+    
+        .section3 h4 {
+            color: #244065;
+            font-weight: 400;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 20px;
+        } 
+    
+        .section3 h3 {
+            text-decoration-color: #2A4749;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 300;
+            font-size: 18px;
+            text-align: justify;
+            
+    
+        }
+    
+        .section3 h2 {
+            color: #171818;
+            font-weight: 350;
+        }
+    
+        .section3 button { 
+            width: 100%;
+            height: 80px;
+            background-color: #2A4749;
+            position: relative; top: 8%;
+        }
+    
+        #areaspracticas a {
+            color: #171818;
+            text-decoration: none ;
+        }
+        
+        .section3 a {
+            text-decoration-color: #5f6666;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        
+        .sectioncajas {
+            padding-top: 5%;
+            margin-bottom: 5%;
+            
+        }
+        
+        .sectioncajas h2 {
+            
+            text-align:center ;
+            font-size: 25px;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+            
+        }
+        
+        .sectioncajas h3 {
+            margin-top: 3%;
+            padding-top: 2%;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            text-decoration-color:#2A4749;
+            text-align: center;
+            
+        }
+    
+        .imgsection {
+            width: 100%;
+        }
+        
+        .imgnosotros {
+            display: none;
+        }
+        
+        .postnosotros {
+            width: 100%;
+            height: 70px;
+            padding-top: 0%;
+            margin-bottom: 10%;
+        }
+        
+        .nosotros h2 {
+            font-size: 20px;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: -2px;
+            text-decoration-color: #2A4749;
+        }
+        
+        
+        .nosotros p {
+            margin-top: 2%;
+            font-size: 15px;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+            text-align: justify ;
+        }
+        
+        
+        
+        .logoestudio {float: left;
+            width: 100%;
+            height: auto;
+            padding-bottom: 25px ;} 
+            
+            .logoestudio :hover {float: left;
+                padding-bottom: 25px; 
+                
+            }
+            
+            .footer {
+                
+                padding-top: 1% ;
+                width: 100%;
+                height: 350px;
+                background-color:#244065;
+                
+                
+            }
+    
+            .footer h4 {
+                text-align: center;
+                font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 18px;
+                color:#232525;
+            }
+            .footer p {
+                text-align: center;
+            }
+    
+            .logofooter {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                position: relative;  
+                
+            }
+            .copyright {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                position: relative; top: -15px;
+                color: #e4e3e3;
+    
+            }
+    
+            
+    
+            
+    
+            .iconocontacto {width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                margin-top: 8%;
+    
+                      
+            
+            }
+            
+            .iconosredes {
+                padding-top: 10%; padding-left: 15%; padding-right: 15%;
+                margin-bottom: 7%;
+            }
+            
+            
+            
+            a{color: #94a3a4;
+                
+            }
+        
+        a:hover {
+            
+            padding: 5px;
+            
+            
+        }
+        
+            
+        
+        .headerdatos {
+            width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+            background-image: url(/imagenes/santafe.header.bn.jpeg);
+            height: 300px;
+        }
+            
+        .headercontacto {
+            width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+            background-image: url(/imagenes/santafe.header.bn.jpeg);
+            height: 800px;
+        }
+    
+        .headercontacto h1 {
+            
+        text-decoration-color: #232525;     
+         font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif; 
+         font-weight: 600;      text-align: center;      font-size: 2,5em ; 
+         width: 80%;
+         height: 10%;
+         background: #5f6666a9;
+         position: relative; top: 10%; left: 10%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+        }
+    
+    
+        .contacto-estudio {width: 100%; 
+            margin-top: 10px;
+            background: #5f6666d3;
+            position: relative; top: 8%;
+       
+            
+            
+        }
+        
+            
+        .contacto-estudio span {font-size: 0,5em; color:#232525; font-weight: 400;
+            width: 100%;
+        }
+        
+        .contactowsp{
+            position: relative; left: 15%;
+                     
+        }
+        .contactowsp a {
+            font-weight: 500;
+        }
+
+        
+        #formcontacto { 
+            padding: 15px;
+            margin: 0 auto;
+            border-radius: 10px;
+        
+        }
+    
+        #formcontacto  label { width: 400px;}
+    
+        
+        
+        #formcontacto  input { width: 90%; 
+            margin: 4px;
+        padding: 5px;
+        font-size: 0,8em;
+        background-color:#94a3a4c2;
+        }
+    
+        .horariocontacto {
+            width: 50px;
+            height: auto;
+        }
+        
+        #formcontacto input[type="checkbox"] {width: auto; 
+                    color: #94a3a4c2;
+                    margin: 0%;
+            }
+    
+        
+        #formcontacto input[type="radio"] {width: auto; margin: 5px;
+            padding: 10px; 
+            font-size: 0,8em;
+            background-color:#94a3a4c2}
+        
+        #formcontacto textarea {width: 400px; height: 100px;
+            margin: 2px;
+            padding: 5px; 
+            background-color:#94a3a4c2
+        }
+        
+        #formcontacto  select { width: 100%; 
+            margin: 2px;
+           padding: 5px; 
+           font-size: 0,8em;
+           background-color:#94a3a4c2
+        }
+    
+        }
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*PEQUEÑO*/ /*PEQUEÑO*/ /*PEQUEÑO*/ /*PEQUEÑO*/ /*PEQUEÑO*/
+
+
+
+
+
+
+
+    
+    @media screen and (min-width:100px) and (max-width:575px){
+       
+        #contenedorgeneral {
+            width: 100%;
+         max-width: 1600px;
+         margin: 0 auto;
+         box-sizing: border-box;
+         height: 1100px;
+        
+                  
+     }
+
+
+     .barritainfo {
+        display: none;
+        width: 100%;
+        height: 25px;
+        background-color: #e4e3e3;
+        justify-content: flex-end;
+    }
+   
+    .barritainfo span {
+        display: none;
+        font-size: 80%;
+        font-weight:300;
+        align-self:flex-end;
+    }
+
+    .logotel {
+        display: none;
+        size: 100%;
+    }
+
+
+
+ 
+    .barraseparadora {
+        height: 1px;
+        background-color: #c4cece;
+    }
+   
+     
+     
+     .navbar {background-color:#244065;  
+         height: 8%;
+         width: 110vw; 
+         display: block; 
+         position: relative;
+                                       
+          }
+ 
+          .hamburger{
+            position: absolute; left: 60%; bottom: 25px;
+          background-color:transparent;
+            height:30px;
+            width:30px;
+            padding:20px 30px;
+            -webkit-transform:translate3d(0, 0, 0);
+            transform:translate3d(0, 0, 0);
+            -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+            transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+            z-index:1002;
+            cursor:pointer;
+            -webkit-user-select:none;
+            -moz-user-select:none;
+            -ms-user-select:none;
+            user-select:none
+        }
+     
+     
+
+     
+     .navbarsm {
+         width: 35%;
+        justify-content: space-around;
+        position: absolute; top: -25px;
+         
+     }
+    
+ 
+     .navbar a {
+         color:#cf3f3f;
+         font-size: 10px;
+         font-weight: 400;
+         font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         text-decoration: none;
+     }
+
+
+  
+     .logonav {
+        width: 45%;
+        margin-top: 2%;
+    }
+   
+
+    .figurecontacto {
+        width: 30%;
+    }
+
+
+     .navbar figure {
+        width: 100%;
+    }
+
+   
+
+    .header { 
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image:url(/imagenes/santafe.header.bn.jpeg); 
+        height: 250px;
+        
+    }
+
+    .logobanner {
+        display: none;
+        width: auto;
+        height: 80%;
+        position: relative; top: 26%; left: 2%;
+
+    }
+
+
+    .textoheader {
+        width: 90vw;
+        height: 230px;
+        margin-top: 2%;
+    }    
+
+    .carruseldiv {
+        background-color:#23252557;
+        width: 95%;
+        height: 85%;
+        position: relative; top: 20px;
+    }
+    
+    .header h3 {text-align: center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: relative; top: 25%;
+        font-weight: 300;
+        font-size: 0.9em;
+        margin-top: 4%;
+        font-style: italic;
+    }
+    
+    .header h4 {
+        text-align: center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        font-size: 0.9em;
+    }
+
+    .header h5 {
+        text-align: center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: relative; top: 10%;
+        font-size: 0.9em;
+        font-weight: 300;
+    }
+
+
+    .header h2 {
+        text-align:center;
+        color: #c4cece;
+        font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:400;
+        font-size: 1.2em;
+        position: relative; top: 45%;
+        margin-top: 5%;
+    }
+
+    .sectionheader {
+        height: 25%;
+        width: 100%;
+        background-color: #171818a1;
+        margin-top: 5%;
+        padding-top: 1%;
+    }
+    
+.header button {
+    width: 55%;
+    height: 55px;
+    position: absolute; top: 40%;
+background-color: #244065;
+color: #c4cece;
+font-weight: 400 ;
+font-size: 0.8em;
+margin-top: 10%;
+text-decoration: none;
+}
+
+.card {
+    width: 75%;
+    align-items: center;
+    position: relative; left: 10%;
+}
+
+.card a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: 200;
+    color: #244065;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card li {
+    font-size: 1em;
+    text-align: left;
+}
+
+.areasdepractica {
+    
+    margin-top: 15%;
+}
+
+.areasdepractica h3 {
+    text-align: end;
+    color: #244065;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+
+    
+.sectionfinancieras {
+    margin-top: 5%;
+    width: 100%;
+    height: 50%;
+    padding-top: 1%;
+    background-image: url(/imagenes/problemasfinancieroschica.png);
+    text-align: center;
+}
+
+.carousel {
+    height: 130px;
+}
+
+.sectionfinancieras h2 {
+    font-weight: bold;
+    margin-top: 5%;
+    color: #244065;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.sectionfinancieras h4 {
+    width: 90%;
+    height: 50px ;
+    background-color:#e4e3e39a;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    position: relative; left: 3%;
+}
+        
+
+
+.sectionfinancieras h3 {
+    height: 35%;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10%;
+    color: #244065;
+    text-align: center;
+    font-size: 1.4em;
+    position: relative; left: 3%; top: 5%;
+}
+
+
+.sectionfinancieras input {
+    width: 70%;
+    margin: 1% 0%;
+}
+
+.sectionfinancieras button {
+    width: 60%;
+    height: 45px;
+    position: relative; bottom: 20%;
+background-color: #244065;
+color: #c4cece;
+font-weight: 250 ;
+font-size: 0.7em;
+margin-top: 10%;
+}
+
+.botonconsulta {
+    background-color: #244065;
+    position: relative; 
+    font-size: 0.7em;
+    font-family: "Montserrat", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+
+    
+    
+    
+    .nosotros {
+        padding-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .nosotrossm { width: 150px;
+
+
+    }
+
+
+    #nosotros figure {
+        width: 50%;
+        position: relative; left: 25%;
+    }    
+
+    #nosotros h4 {
+        font-size: 1.1em;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 4px;
+        text-decoration-color: #2A4749;
+        text-align: center;
+    }
+
+    #nosotros h3 {
+        font-size: 1em;
+        font-weight: 300;
+        margin-top: 5%;
+    }
+
+    .imgnosotros { 
+        display:none
+    }
+    .nosotros div {
+        width: 80%;
+        
+    }
+
+    .sm100 {
+        width: 300px;
+    }
+    
+    
+    .nosotros p {
+        margin-top: 2%;
+        font-size: 10px;
+        font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        text-align: justify ;
+    }
+    
+    
+    
+    .logoestudio {float: left;
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px ;} 
+        
+        .logoestudio :hover {float: left;
+            padding-bottom: 25px; 
+            
+        }
+        
+        .footer {
+            
+            padding-top: 3% ;
+            width: 100%;
+            height: 360px;
+            background-color:#244065;
+            display:flex;
+            flex-direction:row;
+            
+            
+        }
+
+        .smimage {
+            width: 30%;
+            position: relative; left: 15%;
+            
+        }
+
+       
+
+        .footer h4 {
+            text-align: center;
+            font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 0.8em;
+            color:#232525;
+            position: relative; top: -50px;
+        }
+        .footer p {
+            text-align: center;
+            position: relative; top: -15px;
+            font-size: 0.7em;
+        }
+
+        .smcol {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logofooter {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            position: relative; top: -15%;
+            
+        }
+        .copyright {
+            display: flex;
+            justify-content: center;
+            align-self: flex-start;
+            position: relative; top: -20%; 
+
+        }
+
+        .smnone {
+            display: none;
+        }
+
+        .smicono {
+            width: 5%;
+            height: 10%;
+            align-self: center;
+            position: relative; top: -10px;
+        }
+
+        .smiconomail {
+            width: 15%;
+            height: 20%;
+            position: relative; top: -20px
+        }
+
+        
+        
+
+        
+
+        .iconocontacto {width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 8%;
+
+                  
+        
+        }
+        
+        .iconosredes {
+            padding-top: 10%; padding-left: 15%; padding-right: 15%;
+            margin-bottom: 7%;
+        }
+        
+        
+        
+        a{color: #94a3a4;
+            
+        }
+    
+    a:hover {
+        text-decoration: overline #94a3a4 ;
+        padding: 5px;
+        
+        
+    }
+    
+        
+
+
+    .headerdatos {
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image: url(/imagenes/santafe.header.bn.jpeg);
+        height: 300px;
+    }
+    
+        
+    .headercontacto {
+        width: 100% /* es reduntante porque Todos los elementos de bloque, todos se estiran al 100% */;
+        background-image:url(/imagenes/santafe.header.bn.jpeg);
+        height: 650px;
+    }
+
+    .headercontacto h1 {
+        
+    text-decoration-color: #232525;     
+     font-family: 'Montserrat', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-weight: 600;      text-align: center;      font-size: 1em ; 
+     width: 80%;
+     height: 5%;
+     background: #5f6666a9;
+     position: relative; top: 5%; left: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    .contacto-estudio {width: 90%; 
+        margin-top: 5px;
+        background: #5f6666d3;
+        position: relative; top: 5%;
+        
+        
+    }
+    
+        
+    .contacto-estudio span {font-size: 12px; color:#232525; font-weight: 300;
+    }
+    
+    .displayblockxs {
+        display: block
+    }
+    
+    
+    #formcontacto { 
+        padding: 2px;
+        margin: 0 auto;
+        border-radius: 10px
+    
+    }
+    
+    #formcontacto  label { width: 100%;}
+
+    #formcontacto  input { width: 100%; 
+        margin: 4px;
+    padding: 1px;
+    font-size: 13px;
+    background-color:#94a3a4c2;
+    }
+
+    .horariocontacto {
+        width: 50px;
+        height: auto;
+    }
+    
+    #formcontacto input[type="checkbox"] {width: auto; 
+        padding: 1px;
+                color: #94a3a4c2;
+                margin: 0%;
+        }
+
+    
+    #formcontacto input[type="radio"] {width: auto; margin: 1px;
+         padding: 1px; 
+        font-size: 0,5em;
+        background-color:#94a3a4c2}
+    
+    #formcontacto textarea {width: 100%; height: 100px;
+        margin: 2px;
+        padding: 1px; 
+        background-color:#94a3a4c2
+    }
+    
+    #formcontacto  select { width: 100%; 
+        margin: 1px;
+       padding: 1px; 
+       font-size: 0,5em;
+       background-color:#94a3a4c2
+    }
+       
+ 
+
+    
+/* SERVICIO */
+
+.img-servicio {
+    display: none;}
+
+.sectionservicios h5 {
+    font-size: 0.5em;
+    font-weight: 200;
+}
+
+.sectionservicios h5 li {
+
+    font-size: 0.5em;
+    font-weight: 150;
+}
+
+.sectionservicios p{
+    font-weight: 300;
+    font-size: 0.8em;
+    color:#030303;
+    text-justify: distribute-all-lines;
+}
+
+.sectionservicios h4{
+    font-size: 1.2em;}
+
+.h1servicio {
+    font-size: 8px;
+}
+
+.headerservicios {
+    font-weight: 300;
+    font-size: 0.8em;
+    height: 100px;
+    
+}
+
+.sectionservicios h3 {
+    font-size: 1em;
+}
+  .h5consumidor{
+      font-size: 0.7em;
+  }
+
+ #problemasfinancieros h1  {
+      font-size: 1.2em;
+      font-weight: 550;
+  }
+
+  #problemasfinancieros h2 {
+      font-size: 00.9em;
+  }
+  #problemasfinancieros li {
+      font-weight: 250;
+      font-size: 1em;
+
+  }
+  #problemasfinancieros button {
+      font-size: 0.8em;
+      width: 100%;
+  }
+
+.contactowsp span{
+    font-size: 0.8em;
+    font-weight: 300;
+    color:#232525;
+}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Servicio */
+
+
+
+
+.headerservicios {
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-image: url(../imagenes/santafe.banner.servicios.jpg);
+    margin-bottom: 4%;
+    margin-top: 2%;
+    
+}
+
+.headerservicios h1 {
+    position: relative; top: 25px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.financieras {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.financieras button {
+    width: 100%;
+    height: 60px;
+    position: relative;
+background-color: #244065;
+color: #c4cece;
+font-weight: 400 ;
+margin-top: 10%;
+}
+
+.headerfinancieras {
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-image: url(../imagenes/santafe.banner.servicios.jpg);
+    margin-bottom: 4%;
+    margin-top: 2%;
+    
+}
+
+.headerfinancieras h1 {
+    position: relative; top: 25px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+
+ .alimentos {
+     border-bottom: solid #2a4749;
+ }
+
+.sectionservicios {
+    position: relative; left: 9%;
+    margin-top: 2%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    
+
+    }
+.sectionservicios li {
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+    .sectionservicios figure {
+        width: 90%;
+
+    }
+
+.sectionservicios h4 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:#2a4749;
+    text-align: center;
+    border-bottom: solid #2a4749;
+}
+
+.sectionservicios h5 {
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.sectionservicios h6 {
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.sectionservicios a {
+    color: #2A4749;
+    
+
+}
+
+.sectionservicios p {
+    margin-top: 2%;
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+.separador {
+    width: 100%;
+    height: 90px;
+}
+
+.h5consumidor {
+    border-bottom: #2a4749;
+}
+
+
+
+
+
+
+
+/* NAVBAR Y MENU MEDIA  */
+
+
+
+
+
+@media screen and (min-width:150px) and (max-width:989px){
+    #menucomun {
+        display: none;
+    }
+
+    }
+
+
+
+@media screen and (min-width:989px) and (max-width:2500px){
+    #hamburgernav {
+            display: none;
+        }
+    
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR HAMBURGER */
+
+.hamburger{
+	position: fixed;
+  background-color:transparent;
+	right:10%;
+	top:6%;
+	height:30px;
+	width:30px;
+	padding:20px 20px;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	z-index:1002;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.hamburger.is-active{
+  background-color: none;
+}
+._layer{
+	background:#e4e3e3;
+	margin-bottom:4px;
+	border-radius:2px;
+	width: 30px;
+	height:3px;
+	opacity:1;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+.hamburger:hover .-top{
+	-webkit-transform:translateY(-100%);
+	-ms-transform:translateY(-100%);
+	transform:translateY(-100%);
+}
+.hamburger:hover .-bottom{
+	-webkit-transform:translateY(100%);
+	-ms-transform:translateY(100%);
+	transform:translateY(100%);
+	}
+.hamburger.is-active .-top{
+	-webkit-transform:translateY(200%) rotate(45deg) !important;
+	-ms-transform:translateY(200%) rotate(45deg) !important;
+	transform:translateY(200%) rotate(45deg) !important;
+}
+.hamburger.is-active .-mid{
+	opacity:0;
+}
+.hamburger.is-active .-bottom{
+	-webkit-transform:translateY(-200%) rotate(135deg) !important;
+	-ms-transform:translateY(-200%) rotate(135deg) !important;
+	transform:translateY(-200%) rotate(135deg) !important;
+}
+
+.menuppal.is_active{
+  transform: translate3d(0px, 0px, 0px);
+}
+.menuppal{
+   background-color: rgba(255, 255, 255, 0.95);
+    bottom: 0;
+    height: 50%;
+    right: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top:0%;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 40%;
+    z-index: 1001;
+}
+.menuppal ul{
+  margin:0;padding:0;
+}
+
+.menuppal ul li { 
+  list-style: none;
+	text-align:center;
+	font-family: Verdadna, Arial, Helvetica;
+	color: nav-color-text;
+	font-size:1.5rem;
+	line-height:3em;
+	height:3em;
+  color:#369;
+	text-transform:none;
+	font-weight:bold;
+}
+
+.menuppal ul li a{
+  text-decoration:none;
+  color:#369;
+}
+.menuppal ul li a:hover{
+  text-decoration:none;
+  color:#333;
+}
+
+
