@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boya - Departamentos</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/laboya.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  
+  <!-- Datapicker Jquery -->
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker1" ).datepicker();
+  } );
+  
+    $( function() {
+      $( "#datepicker2" ).datepicker();
+    } );
+    </script>
+
+
+</head>
+
+
+<body id="contenedorgeneral">
+
+  <div class="navtop container-fluid">  
+
+  </div>
+
+    <nav id="menugrande" class="container-fluid sticky-top navbarpadel">
+       
+        <ul class="nav justify-content-between align-content-center">
+            <li class="nav-item">
+                <figure class="logonav">
+                   <a href="index.html"> <img  src="/img/laboyagris.yanone55.png" class="img-fluid logonav" alt="logopadel"></a>
+                </figure>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#registro"></a>
+            </li>
+          
+            <li class="nav-item dropdown">
+                
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DEPARTAMENTOS</a>
+                    <div class="dropdown-menu rankingdrop">
+                      <a class="dropdown-item" href="/servicios.html#galeria">4/5 pax</a>
+                      <a class="dropdown-item" href="/servicios.html#galeria">5/6 pax</a>
+                      
+                  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="servicios.html#nuestrosservicios">SERVICIOS</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" href="#ubicacion">UBICACION</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">CONTACTO</a>
+            </li>
+            
+          </ul>
+
+      
+      
+      
+      
+                  
+    </nav>  
+
+
+
+
+
+
+<!-- MENU PARA CELULAR    MENU HAMBURGUESA-->
+        <!-- MENU PARA CELULAR    MENU HAMBURGUESA-->
+                   <!-- MENU PARA CELULAR    MENU HAMBURGUESA-->
+        
+
+
+      <nav id="menusm" class="container-fluid sticky-top flex-column align-content-center navbarpadel">
+
+      
+        
+          <div class="row navbar navnarsm">
+              
+              <figure class="col-6">
+                  <a href="index.html">
+                    <img  src="img/laboyagris.yanone55.png" class="img-fluid" alt="logopadel">
+                  </a>
+              </figure>
+              
+                   
+                  
+                    
+              <div class="col-3">
+  
+                  
+                <div class="hamburger">
+                  <div class="_layer -top"></div>
+                  <div class="_layer -mid"></div>
+                  <div class="_layer -bottom"></div>
+                </div>
+                <nav class="menuppal">
+                    <ul>
+                      <li><a href="servicios.html#galeria">DEPARTAMENTOS</a></li>
+                      <li><a href="servicios.html#nuestrosservicios">SERVICIOS</a></li>
+                      <li><a href="#contacto">CONTACTO</a></li>
+                      <li><a href="#ubicacion">UBICACION</a>  <a class="m-3" href="/index.html">/ Salir</a></li>
+                      
+                    </ul>
+                  </nav>
+                  </div> 
+                  
+              </div>
+                  
+          </div>
+                 
+           
+       </nav>
+        
+       
+
+            
+        </div>
+       
+        
+
+      
+ 
+        
+
+    
+    <section class="headerdeptos">
+
+      
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-80 img-fluid" src="/img/header.slider.1filtro.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-80 img-fluid" src="/img/header.slider.3.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-80 img-fluid" src="/img/header.slider.4filtro.jpg" alt="forth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-80 img-fluid" src="/img/header.slider.2filtro.jpg" alt="Second slide">
+          </div>
+          
+         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+                 
+        
+    
+  </section>
+
+  
+  
+  <form id="contacto" class= "formreserva" action="enviodatosboya.php" method="POST">
+    
+    
+    
+    <div class="row justify-content-center">
+     
+        <div class="col-lg-10">
+         <input type="text" class="form-control" name="nombre" placeholder="Nombre y Apellido" required>
+       </div>
+              
+    </div>
+    
+    <div class="row justify-content-center">
+        
+      <div class="col-lg-10">
+        <input type="email" class="form-control" name="email" placeholder="Email" required>
+      </div>
+      <div class="col-lg-10">
+        <input type="number" class="form-control" name="telefono" placeholder="Telefono" required>
+      </div>
+      
+    </div>
+    
+    
+    
+  </div>
+  
+  
+  <div class="row justify-content-lg-center">
+    
+    
+    <div class="md-form md-outline input-with-post-icon datepicker col-5" inline="true">
+      <span>Desde</span>
+      <input placeholder="mm/dd/aaaa" type="text" name="desde" id="datepicker1" class="inputfechas form-control" required>
+      
+    </div>
+        
+        <div class="md-form md-outline input-with-post-icon datepicker col-5" inline="true">
+          <span>Hasta</span>
+          <input placeholder="mm/dd/aaaa" type="text" name="hasta" id="datepicker2" class="inputfechas form-control" required>
+          
+          
+        </div>
+        
+        
+        
+        <div class="row justify-content-center">
+          
+          <div class="m-1 col-lg-10">
+            <textarea name="textarea" placeholder="Consulta y/o inquietudes" class="form-control p-1" cols="40" rows="3"></textarea>
+            
+          </div>
+          
+        </div>
+        
+        
+
+      </div>
+      
+      
+      <button type="submit" class="btn btn-primary btnconsulta">CONSULTAR DISPONIBILIDAD</button>
+      
+      
+      <a href="http://wa.me/+543437607196?text=Hola, quisiera consultar por tarifas y disponibilidad para la siguiente fecha:." target="new"><h5 class="">Escribenos y obtené las mejores tarifas <img src="/img/iconos/wsp.30px.png" alt=""> </h5></a>
+      
+      
+      
+      
+      
+      
+    </form>
+    
+    
+<hr class="hrup">
+
+<section id="bienvenidos" class="container">
+ 
+
+    <h3> Bienvenidos<br></h3>
+    <h4>Departamentos con mucha historia y completamente renovados para recibirte.</h4>
+
+ 
+</section>
+
+
+
+  <hr class="hrdown">
+    
+
+  <section id="nosotros" class="container row">
+
+    <div class="imgfrente col-md-4 col-lg-4 col-xl-4 col-sm-4 col-12">
+      <img class="img-fluid imgsombra" src="/img/290x335pxfrente.jpg" alt="">
+    </div>
+    
+    <div class="cuadrolaboya col-md-8 col-lg-8 col-xl-8 col-sm-8 col-12">
+      <h4> <img src="/img/laboyaazul.yanone55.png" alt=""> </h4>
+      
+      <h5>Se encuentra en el corazón del puerto local. Además de todas las comodidades y excelentes servicios, nuestras unidades 
+        cuentan con una de las mejores vistas de nuestra ciudad.  Desde sus ventanas, se pueden apreciar unos atardeceres inigualables</h5>
+
+
+        
+          
+        </div>
+
+
+    </div>
+
+
+
+
+  </section>
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+    <section id="ubicacion" class="container-fluid row"> 
+      <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
+        <h4>Ubicación</h4>
+           
+        <h3> Belgrano N° 188 - La Paz E.R. <br>
+          En acceso al Puerto de la ciudad, a pocos metros del Rio Paraná.</h3>
+          <h6> * Zona gastronómica <br>
+          * 800 mts. de la Plaza principal <br>
+          * 600 mts. Balneario (por costanera) <br>
+          * 100 mts. Casino 
+
+          </h6>
+          
+        
+      </div>
+  
+      <div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6">
+        <iframe class="ubicacionlg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1714.707507244661!2d-59.641166726628285!3d-30.734841948818307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b34dd7acda11c1%3A0x1d5e42ffc01247ce!2sLa%20Boya%20Departamentos!5e0!3m2!1ses!2sar!4v1641249420950!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="ubicacionsm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1714.707507244661!2d-59.641166726628285!3d-30.734841948818307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b34dd7acda11c1%3A0x1d5e42ffc01247ce!2sLa%20Boya%20Departamentos!5e0!3m2!1ses!2sar!4v1641249420950!5m2!1ses!2sar" width="230" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    
+       
+  
+    </section>
+
+
+    <section id="ciudad">
+
+
+      <div class="row">
+
+        <div class="col-10 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+          <img class="img-fluid imgciudad"  src="/img/atardecer.jpg" alt="Card image cap">       
+        </div>
+
+      <div class="col-10 col-sm-5 col-md-5 col-lg-5 col-xl-5 justify-content-between">
+        <div class="card-body">
+          <h5 class="card-title">Nuestra ciudad</h5>
+          <p class="card-text">Conocé los distintos atractivos que ofrece La Paz.   
+             Entrá y enterate todo lo que podes hacer en nuestra ciudad.</p>
+          <a target="_blank" href="https://www.lapazentrerios.tur.ar/que-hacer2/"><button class="btn btn-primary">¿ QUE HACER en La Paz E.R. ?</button></a>
+        </div>
+      </div>
+
+      
+    
+    </div>
+
+    </section>
+
+  
+
+
+
+    
+    
+    
+    
+
+
+                        
+<!-- Footer    Footer    Footer  -->
+                                                
+<!-- Footer    Footer    Footer  -->
+<!-- Footer    Footer    Footer  -->  
+       
+                   
+    
+<footer class="container-fluid footer">
+    
+  <div class="row">
+        
+    <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                
+        <h4 class="smnone">UBICACION</h4>
+        <h5> <img src="/img/iconos/50pxubicacion.png" alt=""> </h5>
+        <p>
+           *Belgrano N° 188 - La Paz E.R. <br>
+           
+        </p>  
+        
+
+    </div>
+
+
+  
+    <div class="smnone col-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        <div class="row iconosredes">
+
+            <div class="col">
+              <h4>@LABOYA.DEPARTAMENTOS</h4>
+                <h5><img src="/img/iconos/50pxinstag.png" alt="Instagram"></h5>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="col-12 justify-content-center">
+
+      
+      <figure class="logofooter">
+      <h3>  <img src="img/laboyagris.yanone55.png" alt="logoboya"></h3>
+      </figure>
+      <div class="copyright">
+        <p> &copy; Todos los derechos reservados </p>
+      </div>
+      
+    </div>
+    
+
+</div>
+
+<div class="facudevol">
+  <a href=""> <p> &copy;FacuCalleja / DesarrolloWeb</p></a>
+</div>
+
+
+
+</footer>
+
+                
+            
+            
+            
+
+
+
+
+        
+</main>
+
+    
+   
+    <!-- JavaScript Bundle with Popper -->
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="/deptos.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
