@@ -1,0 +1,4138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital@0;1&family=Rajdhani:wght@300;500&family=Spline+Sans&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+
+
+*{border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+  
+
+
+
+
+    /* media queries*/ 
+    /*extragrande -- 1201px a 3000px*/ 
+    /*Grande -- 990px a 1200px.*/
+    /* Medianos -- 575px a 989px*/
+    /* Pequeños -- 0px a 574px*/
+
+
+    /*GRANDE y extragrande*/
+    @media screen and (min-width:966px) and (max-width:2600px){ 
+      
+    #contenedorgeneral {width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 1100px;
+        background-color:#e4e3e3;
+        
+    }
+
+    
+    #menusm {
+        display: none;
+    }
+
+    #menugrande a {
+        font-family: 'Rajdhani', 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 1.1em;
+        text-decoration: none;
+        color: #e4e4e3;
+        position: relative; top: 38%;
+
+    }
+    
+    .navbarpadel {
+        width: 100%;
+        height: 7%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color:#141e30ee;
+        box-shadow: #9E7723 2px 2px;
+    }
+
+      .navbarpadel a {
+          font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+          font-weight: 450;
+          font-size: 1.1em;
+          text-decoration: none;
+          color: #e4e4e3;
+          position: relative; top: 38%;
+        }  
+
+
+    .logonav {
+        width: 100%;
+        height: fit-content;
+        margin-left: 0%;
+        margin-top: 4%;
+        
+     }   
+
+     
+    #barritasm {
+        display: none;
+    }
+
+    
+    .navbarrita {
+        width: 100%;
+        height: 5px;
+        background-color: #00479C;
+        padding-right: 8%;
+    }
+    
+    .navbarrita a {
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        text-decoration: none;
+        color:#141E30;
+        
+    }
+
+
+      
+    
+    #menucomun a {
+        color: #e4e3e3;
+        text-decoration: none;
+        font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        
+        
+    }
+    
+    #menucomun div {
+        margin-top: 7%;
+        justify-content: right;
+        align-content: flex-end;
+    }
+
+    .headerdeptos{
+        height: 100vh;
+        width: 100vw;
+        margin-left:0%;
+        margin-top: -7%;
+        background-image: url(/img/headerxl.4.1398x650.jpg);
+        background-size: cover;
+        
+    }
+    
+    .headerarriba {
+        position: absolute; left: -60px; top: -3%;
+        background-color: #141e30d3;
+        width: 40%;
+        height: 100vh;
+        transform: skewx(170deg);
+    }
+  
+    #bienvenidos {
+        margin-top: 0;
+    }
+
+    .imgheader {
+        width: auto;
+       position: relative; left: 52%; top: 120px;
+       text-shadow: 2px 2px #242018;
+       
+    }
+
+    #bienvenidos h3 {
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        font-weight: 500;
+        letter-spacing: 3px;
+        z-index: 200;
+        font-size: 5em;
+        text-align: center;
+        color: #e4e3e3;
+        text-shadow: 2px 2px #242018;
+        position: relative; top: 250px; left: -20%;
+        
+        
+    }
+    
+    
+    
+    .headerpadel a{
+    text-decoration: none;
+   
+    }
+
+
+    .formreserva {
+        width: 80%;
+        height: 20%;
+        background-color: #4b4a49de;
+        margin-left: 10%;
+        position: relative; top: -5%;
+        
+        z-index: 150;
+        padding-top: 2%;
+        box-shadow: 2px 3px #141E30;
+        
+    }
+
+    .formreserva h3 {
+        margin-top: 15px;
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+        text-align: center;
+        
+    }
+
+    .formreserva h5 {
+        color: #141E30;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        margin-left: 4%;
+        text-align: center;
+
+    }
+
+    .formreserva a {
+        text-decoration: none;
+    }
+
+
+    .formreserva input {
+        margin: 2px;
+    }
+
+
+    .inputfechas {
+        margin-top: 0.5px;
+    }
+
+    
+    .formreserva label {
+        color: #e4e3e3;
+    }
+
+    .formreserva span {
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .btnconsulta {
+        width: 100%;
+        position: relative; left: 2%;
+        background-color: #141E30;
+        border: solid #e4e3e3 0.3px;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-top: 10%;
+        padding-top: 4%;
+
+      
+    }
+
+    .wspabsolute {
+        font-size: 1.5em;
+        font-family: 'Rajdhani', 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif ;
+         
+        
+    }
+
+    .wspabsolute a {
+        text-decoration: none;
+        
+    }
+
+    .h5wsp {
+        color: #141E30;
+        font-family: 'Rajdhani','Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        margin-left: 4%;
+        text-align: center;
+        
+
+    }
+
+
+/* CARD SERVICIOS   */
+
+
+#cardservicioscelular {
+    display: none;
+}
+
+
+#cardservicios {
+
+    margin-top: 5%;
+    padding: 0;
+    min-height: 100vh;
+    background: #e4e3e3;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+.cards2 {
+    margin-top: -2%;
+}
+
+
+.container{
+    width: 85%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+    background-color: #e4e3e3;
+    border: none;
+    width: 25%;
+}
+
+.container .card .face{
+    width: 90%;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #9E7723;
+    transform: translateY(0);
+    
+}
+
+.container .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+    max-width: 80px;
+}
+
+.container .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #e4e3e3;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #e4e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+    background: #9E7723;
+    color: #eeee;
+}
+
+
+
+
+/*  CARD SERVICIOS     */
+
+
+
+
+    .headerhistoria {
+        background-image: url(./img/byn.headerhistoria.jpg) ;
+        width: 100%;
+        height: 400px;
+        margin-top: 15%;
+        padding-top: 5%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+
+    }
+
+    
+
+    #historia h4 {
+        font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 500;
+        font-size: 2.5em;
+        text-shadow: #333 1px 2px;
+        color: #e4e4e3;
+        letter-spacing: 1px;
+        margin-bottom: 2%;
+        margin-left: 6%;
+        margin-right: 5%;
+        text-align: center;
+        position: relative; top: 70px;
+        z-index: 200;
+        
+    }
+
+   
+    
+   
+
+
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   
+   
+    #galeriabuena {
+        margin-top: 8%;
+    }
+
+   .containergaleria{
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+  }
+  
+  .containergaleria h1{
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+    
+    font-size: 44px;
+    
+    color: #424242;
+    text-shadow: #141e30 1px 2px;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    }
+    
+   .item:hover{
+      flex: 7;
+    }
+  
+  .item-1 { 
+    background-image: url('/img/4.livingabajo440.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('/img/20.hab.abajo.mat.440.jpeg');
+  }
+  
+  .item-3 { 
+    background-image: url('/img/9.arribaliv440.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('/img/8.mesadaabajo440.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('/img/12.habitarriba440.jpg');
+  }
+  
+  .social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    }
+    
+   .containergaleria img{
+      display: block;
+      width: 32px;
+    }
+
+
+
+
+
+   
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+
+   #galeriaSM {
+    display: none;
+ height: 71%;
+ width: 95%;
+}
+
+
+
+
+    
+    #ubicacion {
+        background-color: #141E30;
+        height: 30%;
+        margin-top: 15%;
+        margin-bottom: 7%;
+        padding-top: 3%;
+        padding-left: 10%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+    }
+
+    #ubicacion h4 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3em;
+        text-decoration:underline #9E7723;
+        color: #e4e3e3;
+        margin-top: 5%;
+    }
+
+    #ubicacion h3 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.2em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    #ubicacion h6 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    .ubicacionsm {
+        display: none;
+    }
+
+    #ciudad {
+        margin-top: 10% ;
+    }
+
+    #ciudad h5 {
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 2.4em;
+        font-size: 400;
+
+    }
+   #ciudad p {
+
+       font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+           font-size: 1.3em;
+           font-size: 400;
+   }
+
+    .imgciudad {
+        margin-bottom: 2%;
+        padding-bottom: 15%;
+        margin-left: 20%;
+    }
+
+    #ciudad button {
+        background-color: #141e30;
+        color:#9E7723;
+        width: 50%;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 1.2em;
+        font-size: 400;
+    }
+
+
+
+    .footer {
+        background-color: #141E30;
+        width: 100%;
+        height: 25%;
+        border-top: solid 2px #9E7723 ;
+    }
+
+    .footer h4 {
+        color: #e4e3e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        text-align: center;
+        text-decoration: underline #9E7723;
+        margin-top: 5%;
+        
+    }
+
+    .footer h5 {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .footer h3 {
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    .footer p {
+        color: #e4e4e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 100;
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    /* SELLO DEVOLP */
+
+    .facudevol {
+        color: #c4c4c4;
+        position: relative; right: -45%; bottom: -2%;
+        font-size: 0.8em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline overline #c4c4c4;
+        
+     
+
+    }
+
+   
+    
+
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+
+    #galeria {
+        margin-top: 8%;
+        
+    }
+
+    .deptos {
+        height: 55%;
+        background-color: #141e30e7;
+        position: relative; left: 5%; 
+        margin-top: 5%; 
+        padding: 2%;
+        z-index: 100;
+        box-shadow: #9E7723 2px 2px;
+        margin-bottom: 20%;
+    }
+
+    .deptos h5 {
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive;;
+        font-weight: 300;
+        
+        font-size: 1.2em;
+        
+        text-align: left;
+        
+
+
+    } 
+
+    .deptos h6 {
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive;;
+        font-weight: 200;
+        font-size: 1em;
+        text-align: left;
+        
+        color: #e6e6e6;
+    } 
+
+    .card-header {
+        border-bottom: solid 2px #9E7723;
+    }
+
+    #nuestrosservicios {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        
+    }
+
+    #nuestrosservicios h3 {
+        color: #141E30;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 3em;
+        margin: 5%;
+        text-shadow: 2px 2px #9E7723;
+               
+        text-align: center;
+
+    }
+   
+
+    .iconosservicios {
+        position: relative; left:7%;
+    }
+
+
+    .cardicon {
+        background-color: #141e30;
+        box-shadow: 2px 2px #9E7723;
+    }
+
+    .cardicon p {
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive;
+        font-weight: 200;
+        font-size: 1em;
+        text-align: left;
+        
+        color: #e6e6e6;
+
+    }
+
+    .cardicon h6 {
+        color: #e4e4e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive;
+        font-weight: 300;
+        text-decoration: underline #9E7723 ;
+        font-style: italic;
+        font-size: 1.3em;
+        margin-top: 1%;
+        
+        text-align: left;
+    }
+
+
+
+
+}
+
+
+/*MEDIANO   GRANDE     /    MEDIANO  GRANDE   / TABLET   */
+/*MEDIANO   GRANDE     /    MEDIANO  GRANDE   / TABLET   */
+/*MEDIANO   GRANDE     /    MEDIANO  GRANDE   / TABLET   */
+/*MEDIANO   GRANDE     /    MEDIANO  GRANDE   / TABLET   */
+
+
+
+    @media screen and (min-width:700px) and (max-width:996px){
+
+      
+        #contenedorgeneral {width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            height: 1100px;
+            background-color:#e4e3e3;
+            
+        }
+    
+        
+        #menusm {
+            display: none;
+        }
+    
+        #menugrande a {
+            font-family: 'Rajdhani', 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #e4e4e3;
+            position: relative; top: 38%;
+    
+        }
+        
+        .navbarpadel {
+            width: 100%;
+            height: 7%;
+            padding-left: 10%;
+            padding-right: 10%;
+            background-color:#141e30ee;
+            box-shadow: #9E7723 2px 2px;
+        }
+    
+          .navbarpadel a {
+              font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+              font-weight: 450;
+              font-size: 1.1em;
+              text-decoration: none;
+              color: #e4e4e3;
+              position: relative; top: 38%;
+            }  
+    
+    
+        .logonav {
+            width: 100%;
+            height: fit-content;
+            margin-left: 0%;
+            margin-top: 4%;
+            
+         }   
+    
+         
+        #barritasm {
+            display: none;
+        }
+    
+        
+        .navbarrita {
+            width: 100%;
+            height: 5px;
+            background-color: #00479C;
+            padding-right: 8%;
+        }
+        
+        .navbarrita a {
+            font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+            font-weight: 300;
+            font-size: 1em;
+            text-decoration: none;
+            color:#141E30;
+            
+        }
+    
+    
+          
+        
+        #menucomun a {
+            color: #e4e3e3;
+            text-decoration: none;
+            font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 300;
+            
+            
+        }
+        
+        #menucomun div {
+            margin-top: 7%;
+            justify-content: right;
+            align-content: flex-end;
+        }
+    
+    
+    .headerdeptos{
+        height: 100vh;
+        width: 100%;
+        margin-left: 0;
+        margin-top: -12%;
+        background-image: url(/img/headerxl.4.1398x650.jpg);
+        background-size: cover;
+        
+    }
+    
+    .headerarriba {
+        position: absolute; left: -80px; top: -3%;
+        background-color: #141e30d3;
+        width: 40%;
+        height: 100vh;
+        transform: skewx(170deg);
+    }
+  
+    #bienvenidos {
+        margin-top: 0;
+    }
+
+    .imgheader {
+        width: auto;
+       position: relative; left: 52%; top: 120px;
+       text-shadow: 2px 2px #242018;
+       
+    }
+
+    #bienvenidos h3 {
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        letter-spacing: 3px;
+        z-index: 200;
+        font-size: 4em;
+        text-align: center;
+        color: #e4e3e3;
+        text-shadow: 2px 2px #242018;
+        position: relative; top: 150px; left: -20%;
+        
+        
+    }
+    
+    
+    
+    .headerpadel a{
+    text-decoration: none;
+   
+    }
+
+
+    .formreserva {
+        width: 80%;
+        height: 32%;
+        background-color: #4b4a49de;
+        margin-left: 7%;
+        position: relative; top: -5%;
+        
+        z-index: 150;
+        padding-top: 3%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        
+    }
+
+    .formreserva h3 {
+        margin-top: 5px;
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 300;
+        font-size: 0.7em;
+        text-align: center;
+        
+    }
+
+    .formreserva h5 {
+        color: #141E30;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        margin-left: 4%;
+        text-align: center;
+
+    }
+
+    .formreserva a {
+        text-decoration: none;
+    }
+
+
+    .formreserva input {
+        margin-top: 1px;
+        ;
+        width: 100%;
+        
+    }
+
+
+    .inputfechas {
+        margin-top: 0.7px;
+    }
+
+    
+    .formreserva label {
+        color: #e4e3e3;
+    }
+
+    .formreserva span {
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .btnconsulta {
+        width: 50%;
+        position: relative; left: 20%;
+        background-color: #141E30;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        border: none;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        padding-top: 2%;
+
+      
+    }
+
+    .wspabsolute {
+        font-size: 1.5em;
+        font-family: 'Rajdhani', 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif ;
+         
+        
+    }
+
+    .wspabsolute a {
+        text-decoration: none;
+        
+    }
+
+    .h5wsp {
+        color: #141E30;
+        font-family: 'Rajdhani','Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        margin-left: 4%;
+        text-align: center;
+        
+
+    }
+
+
+/* CARD SERVICIOS   */
+
+#cardservicioscelular {
+    display: none;
+}
+
+#cardservicios {
+
+    margin-top: 5%;
+    padding: 0;
+    min-height: 100vh;
+    background: #e4e3e3;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+.cards2 {
+    margin-top: -2%;
+}
+
+
+.container{
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+    background-color: #e4e3e3;
+    border: none;
+    width: 40%;
+}
+
+.container .card .face{
+    width: 100%;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #9E7723;
+    transform: translateY(0);
+    
+}
+
+.container .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+    max-width: 80px;
+}
+
+.container .card .face.face1 .content h3{
+    margin: 5px 0 0;
+    padding: 0;
+    color: #e4e3e3;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #e4e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 10px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 3px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+    background: #9E7723;
+    color: #eeee;
+}
+
+
+
+
+/*  CARD SERVICIOS     */
+
+
+
+
+    .headerhistoria {
+        background-image: url(./img/byn.headerhistoria.jpg) ;
+        width: 100%;
+        height: 400px;
+        margin-top: 15%;
+        padding-top: 5%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+
+    }
+
+    
+
+    #historia h4 {
+        font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 500;
+        font-size: 2.5em;
+        text-shadow: #333 1px 2px;
+        color: #e4e4e3;
+        letter-spacing: 1px;
+        margin-bottom: 2%;
+        margin-left: 6%;
+        margin-right: 5%;
+        text-align: center;
+        position: relative; top: 70px;
+        z-index: 200;
+        
+    }
+
+   
+    
+   
+
+
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   
+   
+    #galeriabuena {
+        margin-top: 8%;
+    }
+
+   .containergaleria{
+    padding: 20px 0;
+    margin: 14% auto;
+    width: 90%;
+  }
+  
+  .containergaleria h1{
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+    
+    font-size: 3em;
+    
+    color: #424242;
+    text-shadow: #141e30 1px 2px;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    }
+    
+   .item:hover{
+      flex: 7;
+    }
+  
+  .item-1 { 
+    background-image: url('/img/4.livingabajo440.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('/img/20.hab.abajo.mat.440.jpeg');
+  }
+  
+  .item-3 { 
+    background-image: url('/img/9.arribaliv440.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('/img/8.mesadaabajo440.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('/img/12.habitarriba440.jpg');
+  }
+  
+  .social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    }
+    
+   .containergaleria img{
+      display: block;
+      width: 32px;
+    }
+
+
+
+
+
+   
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+
+   #galeriaSM {
+    display: none;
+ height: 71%;
+ width: 95%;
+}
+
+
+
+
+
+    
+    #ubicacion {
+        background-color: #141E30;
+        height: 32%;
+        margin-top: 18%;
+        margin-bottom: 7%;
+        padding-top: 4%;
+        padding-left: 10%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+    }
+
+    #ubicacion h4 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 2.7em;
+        text-decoration:underline #9E7723;
+        color: #e4e3e3;
+        margin-top: 5%;
+    }
+
+    #ubicacion h3 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    #ubicacion h6 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    .ubicacionsm {
+        display: none;
+    }
+
+    #ciudad {
+        margin-top: 15% ;
+        margin-bottom: 10%;
+    }
+
+    #ciudad h5 {
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 2.1em;
+        font-size: 400;
+
+    }
+   #ciudad p {
+
+       font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+           font-size: 1.2em;
+           font-size: 400;
+   }
+
+    .imgciudad {
+        margin-bottom: 2%;
+        padding-bottom: 15%;
+        margin-left: 8%;
+    }
+
+    #ciudad button {
+        background-color: #141e30;
+        color:#9E7723;
+        width: 100%;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 1.2em;
+        font-size: 400;
+    }
+
+
+
+    .footer {
+        background-color: #141E30;
+        width: 100%;
+        height: 25%;
+        border-top: solid 2px #9E7723 ;
+    }
+
+    .footer h4 {
+        color: #e4e3e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        text-align: center;
+        text-decoration: underline #9E7723;
+        margin-top: 5%;
+        
+    }
+
+    .footer h5 {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .footer h3 {
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    .footer p {
+        color: #e4e4e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 100;
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    /* SELLO DEVOLP */
+
+    .facudevol {
+        color: #c4c4c4;
+        position: relative; right: -40%; bottom: -2%;
+        font-size: 0.8em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline overline #c4c4c4;
+        
+     
+
+    }
+
+   
+    
+    
+       
+        
+    
+    
+        /* SERVICIOS   SERVICIOS     SERVICIOS  */
+    
+        /* SERVICIOS   SERVICIOS     SERVICIOS  */
+    
+    
+        #galeria {
+            margin-top: 10%;
+        }
+    
+        .deptos {
+            height: 55%;
+            background-color: #141E30;
+            position: relative; left: 5%; 
+            margin-top: 5%; 
+            padding: 2%;
+            z-index: 100;
+           
+        }
+    
+        .deptos h5 {
+            color: #e4e3e3;
+            font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+            font-weight: 200;
+            font-style: italic;
+            font-size: 1.2em;
+            
+            text-align: left;
+            
+    
+    
+        } 
+    
+        .deptos h6 {
+            font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+            font-weight: 200;
+            font-size: 0.9em;
+            text-align: left;
+            
+            color: #e6e6e6;
+        } 
+
+        .card {
+            position: relative; bottom: -20px;
+            box-shadow: 2px 2px #9E7723;
+        }
+    
+        #nuestrosservicios {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            
+        }
+    
+        #nuestrosservicios h3 {
+            color: #141E30;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 2em;
+        margin: 5%;
+        text-shadow: 1px 1px #9E7723 ;
+               
+        text-align: center;
+    
+        }
+       
+    
+        .iconosservicios {
+            position: relative; left:7%;
+        }
+    
+    
+        .cardicon {
+            background-color: #141e30;
+        }
+    
+        .cardicon p {
+            font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+            font-weight: 200;
+            font-size: 0.9em;
+            text-align: left;
+            
+            color: #e6e6e6;
+    
+        }
+    
+        .cardicon h6 {
+            color: #e4e4e3;
+            font-family: 'Pushster','Bebas Neue', cursive;
+            font-weight: 200;
+            font-style: italic;
+            font-size: 1.2em;
+            
+            text-align: left;
+        }
+    
+
+
+
+        /* ENVIO DATOS */
+    
+        /* ENVIO DATOS */
+    
+        /* ENVIO DATOS */
+
+        .echo {
+            position: relative; top: -50%;
+        }
+
+        .mensajecontacto {
+            position: absolute;
+            z-index: 1500;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIANO     MEDIANO      MEDIANOOO    MEDIANOo */
+/*MEDIANO     MEDIANO      MEDIANOOO    MEDIANOo */
+/*MEDIANO     MEDIANO      MEDIANOOO    MEDIANOo */
+/*MEDIANO     MEDIANO      MEDIANOOO    MEDIANOo */
+/*MEDIANO     MEDIANO      MEDIANOOO    MEDIANOo */
+
+
+
+    
+@media screen and (min-width:500px) and (max-width:699px){
+
+
+     
+    #contenedorgeneral {width: 100%;
+        max-width: 650spx;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 1100px;
+        background-color:#e4e3e3;
+        
+    }
+
+    
+    
+    #menusm {
+        display: block;
+    }
+
+    #menugrande {
+        display: none;
+    }
+
+    
+    .navbarpadel {
+        display: none;
+        width: 100%;
+        height: 6%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: transparent;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    }
+
+      .navbarpadel a {
+          font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+          font-weight: 450;
+          font-size: 1.1em;
+          text-decoration: none;
+          color: #e4e4e3;
+          position: relative; top: 38%;
+        }  
+
+
+    .navbarsm figure {
+        position: relative; left: 150px;
+    }
+        
+    .logonav {
+        width: 100%;
+        height: fit-content;
+        
+     }   
+
+
+    
+    #barritasm {
+        display: none;
+    }
+
+    
+   
+
+
+
+
+    /* MENU HAMBURGUESA , MENU HAMBURGUESA */
+/* MENU HAMBURGUESA , MENU HAMBURGUESA */
+/* MENU HAMBURGUESA , MENU HAMBURGUESA */
+
+body{margin:0;padding:0;};
+
+    .hamburger{
+        position:fixed;
+        left:0;
+        top:0;
+      background-color:transparent;
+        height:30px;
+        width:30px;
+        padding:10px 10px;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        z-index:1002;
+        cursor:pointer;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none
+    }
+    .hamburger.is-active{
+      background-color:#141e3023;
+      position: sticky;
+      
+    }
+    ._layer{
+        background:#e4e3e3;
+        margin-bottom:4px;
+        border-radius:3px;
+        width:25px;
+        height:3px;
+        opacity:1;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        position:relative; left: 50%;
+        
+    }
+    .hamburger:hover .-top{
+        -webkit-transform:translateY(-100%);
+        -ms-transform:translateY(-100%);
+        transform:translateY(-100%);
+    }
+    .hamburger:hover .-bottom{
+        -webkit-transform:translateY(50%);
+        -ms-transform:translateY(100%);
+        transform:translateY(100%);
+        }
+    .hamburger.is-active .-top{
+        -webkit-transform:translateY(200%) rotate(45deg) !important;
+        -ms-transform:translateY(200%) rotate(45deg) !important;
+        transform:translateY(200%) rotate(45deg) !important;
+    }
+    .hamburger.is-active .-mid{
+        opacity:0;
+    }
+    .hamburger.is-active .-bottom{
+        -webkit-transform:translateY(-200%) rotate(135deg) !important;
+        -ms-transform:translateY(-200%) rotate(135deg) !important;
+        transform:translateY(-200%) rotate(135deg) !important;
+    }
+    
+    .menuppal.is_active{
+      transform: translate3d(0px, 0px, 0px);
+    }
+    .menuppal{
+       background-color:#141e30e0;
+        bottom: 0;
+        height: 40%;
+        left: 0;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        transform: translate3d(0px, -100%, 0px);
+        transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+        width: 35%;
+        z-index: 1001;
+    }
+    .menuppal ul{
+      margin:0;padding:0;
+    }
+
+    .menuppal ul li { 
+      list-style: none;
+        text-align:left;
+        margin-left: 8%;
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        color: #e4e3e3;
+        font-size:1.6em;
+        line-height:2em;
+        height:2em;
+        text-transform:none;
+        font-weight:bold;
+    }
+
+    .menuppal ul li a{
+      text-decoration:none;
+      color:#e4e4e3;
+      font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive; ;
+      font-size: 0.8em;
+    }
+    .menuppal ul li a:hover{
+      text-decoration:none;
+      color:#9e7723b9;
+    }
+
+
+    /* MENU HAMBURGUESA */
+
+
+  
+    
+    .headerdeptos{
+        height: 100vh;
+        width: 100%;
+        margin-left: 0;
+        margin-top: -12%;
+        background-image: url(/img/headerSM.4.722x543.jpg);
+        background-size: cover;
+        
+    }
+    
+    .headerarriba {
+        position: absolute; left: -70px; top: 0%;
+        background-color: #141e30d3;
+        width: 40%;
+        height: 100vh;
+        transform: skewx(170deg);
+    }
+  
+    #bienvenidos {
+        margin-top: 0;
+    }
+
+    .imgheader {
+        width: auto;
+       position: relative; left: 52%; top: 120px;
+       text-shadow: 2px 2px #242018;
+       
+    }
+
+    #bienvenidos h3 {
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        font-weight: 380;
+        letter-spacing: 3px;
+        z-index: 200;
+        font-size: 3.5em;
+        text-align: center;
+        color: #e4e3e3;
+        text-shadow: 2px 2px #242018;
+        position: relative; top: 200px; left: -10%;
+        
+        
+    }
+    
+    
+    
+    .headerpadel a{
+    text-decoration: none;
+   
+    }
+
+
+    .formreserva {
+        width: 80%;
+        height: 40%;
+        background-color: #4b4a49ec;
+        margin-left: 8%;
+        position: relative; top: -5%;
+        
+        z-index: 150;
+        padding-top: 5%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        
+    }
+
+    .formreserva h3 {
+        margin-top: 5px;
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 300;
+        font-size: 0.5em;
+        text-align: center;
+        
+    }
+
+    .formreserva h5 {
+        color: #141E30;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        margin-left: 4%;
+        text-align: center;
+
+    }
+
+    .formreserva div {
+        margin-top: 5px;
+    }
+
+    .formreserva a {
+        text-decoration: none;
+    }
+
+
+    .formreserva input {
+        margin-top: 1px;
+        width: 100%;
+        
+    }
+
+
+    .inputfechas {
+        margin-top: 1px;
+        width: 50px;
+    }
+
+    
+    .formreserva label {
+        color: #e4e3e3;
+    }
+
+    .formreserva span {
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 10px;
+    }
+
+    .btnconsulta {
+        width: 50%;
+        position: relative; left: 20%;
+        background-color: #141E30;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        border: none;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        padding-top: 2%;
+
+      
+    }
+
+    .wspabsolute {
+        font-size: 1.4em;
+        font-family: 'Rajdhani', 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif ;
+         
+        
+    }
+
+    .wspabsolute a {
+        text-decoration: none;
+        
+    }
+
+    .h5wsp {
+        color: #141E30;
+        font-family: 'Rajdhani','Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.4em;
+        margin-left: 4%;
+        text-align: center;
+        
+
+    }
+
+
+/* CARD SERVICIOS   */
+
+#cardservicios {
+
+    display: none;
+}
+
+
+#cardservicioscelular {
+    margin-top: 8%;
+    padding: 0;
+    min-height: 100vh;
+    background: #e4e3e3;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+.cards2 {
+    margin-top: -2%;
+}
+
+
+.container{
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+    background-color: #e4e3e3;
+    border: none;
+    width: 200px;
+   
+}
+
+.container .card .face{
+    width: 100%;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #9E7723;
+    transform: translateY(0);
+    
+}
+
+.container .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+    max-width: 80px;
+}
+
+.container .card .face.face1 .content h3{
+    margin: 5px 0 0;
+    padding: 0;
+    color: #e4e3e3;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #e4e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 10px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 3px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+    background: #9E7723;
+    color: #eeee;
+}
+
+
+
+
+/*  CARD SERVICIOS     */
+
+
+
+
+    .headerhistoria {
+        background-image: url(./img/byn.headerhistoriaSM.jpg) ;
+        width: 100%;
+        height: 300px;
+        margin-top: 15%;
+        padding-top: 2%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+
+    }
+
+    
+
+    #historia h4 {
+        font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 2em;
+        text-shadow: #333 1px 2px;
+        color: #e4e4e3;
+        letter-spacing: 1px;
+        margin-bottom: 2%;
+        margin-left: 6%;
+        margin-right: 5%;
+        text-align: center;
+        position: relative; top: 40px;
+        z-index: 200;
+        
+    }
+
+   
+    
+   
+
+
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   
+   
+    #galeriabuena {
+        margin-top: 15%;
+    }
+
+   .containergaleria{
+    padding: 20px 0;
+    margin: 14% auto;
+    width: 90%;
+  }
+  
+  .containergaleria h1{
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+    
+    font-size: 2.4em;
+    
+    color: #424242;
+    text-shadow: #141e30 1px 2px;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    }
+    
+   .item:hover{
+      flex: 9;
+    }
+  
+  .item-1 { 
+    background-image: url('/img/4.livingabajo440.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('/img/20.hab.abajo.mat.440.jpeg');
+  }
+  
+  .item-3 { 
+    background-image: url('/img/9.arribaliv440.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('/img/8.mesadaabajo440.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('/img/12.habitarriba440.jpg');
+  }
+  
+  .social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    }
+    
+   .containergaleria img{
+      display: block;
+      width: 32px;
+    }
+
+
+
+
+
+   
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+
+   #galeriaSM {
+    display: none;
+ height: 71%;
+ width: 95%;
+}
+
+
+
+
+    
+    #ubicacion {
+        background-color: #141E30;
+        height: 58%;
+        margin-top: 18%;
+        margin-bottom: 7%;
+        padding-top: 4%;
+        padding-left: 10%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+    }
+
+    #ubicacion h4 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 2.7em;
+        text-decoration:underline #9E7723;
+        color: #e4e3e3;
+        margin-top: 5%;
+    }
+
+    #ubicacion h3 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    #ubicacion h6 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    .ubicacionsm {
+        display: none;
+    }
+
+    #ciudad {
+        margin-top: 20% ;
+        margin-bottom: 15%;
+    }
+
+    #ciudad h5 {
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 2em;
+        font-size: 400;
+
+    }
+   #ciudad p {
+
+       font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+           font-size: 1.3em;
+           font-size: 400;
+   }
+
+    .imgciudad {
+        margin-bottom: 2%;
+        padding-bottom: 5%;
+        margin-left: 8%;
+    }
+
+    #ciudad button {
+        background-color: #141e30;
+        color:#9E7723;
+        width: 100%;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 1.2em;
+        font-size: 400;
+    }
+
+
+
+    .footer {
+        background-color: #141E30;
+        width: 100%;
+        height: 25%;
+        border-top: solid 2px #9E7723 ;
+    }
+
+    .footer h4 {
+        color: #e4e3e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        text-align: center;
+        text-decoration: underline #9E7723;
+        margin-top: 5%;
+        
+    }
+
+    .footer h5 {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .footer h3 {
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    .footer p {
+        color: #e4e4e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 100;
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    /* SELLO DEVOLP */
+
+    .facudevol {
+        color: #c4c4c4;
+        position: relative; right: -40%; bottom: -2%;
+        font-size: 0.8em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline overline #c4c4c4;
+        
+     
+
+    }
+
+   
+    
+
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+
+    #galeria {
+        margin-top: 8%;
+    }
+
+    .deptos {
+        height: 10%;
+        background-color: #141E30;
+        position: relative; left: 5%; 
+        margin-top: 5%; 
+        padding: 2%;
+        z-index: 100;
+       
+    }
+
+    .deptos h5 {
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1.2em;
+        
+        text-align: left;
+        
+
+
+    } 
+
+    .deptos h6 {
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 200;
+        font-size: 0.9em;
+        text-align: left;
+        
+        color: #e6e6e6;
+    } 
+
+    .btngaleria {
+        border: solid 2px #9E7723;
+        background-color: #141e30;
+        margin-bottom: -5%;
+
+    }
+
+
+    #nuestrosservicios {
+        margin-top: 20%;
+        margin-bottom: 10%;
+        
+    }
+
+    #nuestrosservicios h3 {
+        color: #141E30;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 2em;
+        margin: 5%;
+        text-shadow: 1px 1px #9E7723 ;
+               
+        text-align: center;
+
+    }
+   
+
+    .iconosservicios {
+        position: relative; left:7%;
+    }
+
+
+    .cardicon {
+        background-color: #141e30;
+        box-shadow: 2px 2px #9E7723;
+    }
+
+    .cardicon p {
+        font-family: 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 0.9em;
+        text-align: left;
+        
+        color: #e6e6e6;
+
+    }
+
+    .cardicon h6 {
+        color: #e4e4e3;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1.2em;
+        
+        text-align: left;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  PEQUEÑO    PEQUEÑO     PEQUEÑO     */
+/*  PEQUEÑO    PEQUEÑO     PEQUEÑO     */
+/*  PEQUEÑO    PEQUEÑO     PEQUEÑO     */
+/*  PEQUEÑO    PEQUEÑO     PEQUEÑO     */
+/*  PEQUEÑO    PEQUEÑO     PEQUEÑO     */
+
+/*  PEQUEÑO    PEQUEÑO     PEQUEÑO     */
+
+
+
+    
+@media screen and (min-width:360px) and (max-width:499px){
+
+
+   
+     
+    #contenedorgeneral {width: 100%;
+        max-width: 650spx;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 1100px;
+        background-color:#e4e3e3;
+        
+    }
+
+    
+    
+    #menusm {
+        display: block;
+    }
+
+    #menugrande {
+        display: none;
+    }
+
+    
+    .navbarpadel {
+        display: none;
+        width: 100%;
+        height: 6%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: transparent;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    }
+
+      .navbarpadel a {
+          font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+          font-weight: 450;
+          font-size: 1.1em;
+          text-decoration: none;
+          color: #e4e4e3;
+          position: relative; top: 38%;
+        }  
+
+
+    .navbarsm figure {
+        position: relative; left: 150px;
+    }
+        
+    .logonav {
+        width: 100%;
+        height: fit-content;
+        
+     }   
+
+
+    
+    #barritasm {
+        display: none;
+    }
+
+    
+   
+
+
+
+
+    /* MENU HAMBURGUESA , MENU HAMBURGUESA */
+/* MENU HAMBURGUESA , MENU HAMBURGUESA */
+/* MENU HAMBURGUESA , MENU HAMBURGUESA */
+
+body{margin:0;padding:0;};
+
+    .hamburger{
+        position:fixed;
+        left:0;
+        top:0;
+      background-color:transparent;
+        height:30px;
+        width:30px;
+        padding:10px 10px;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        z-index:1002;
+        cursor:pointer;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none
+    }
+    .hamburger.is-active{
+      background-color:#141e3023;
+      position: sticky;
+      
+    }
+    ._layer{
+        background:#e4e3e3;
+        margin-bottom:4px;
+        border-radius:3px;
+        width:25px;
+        height:3px;
+        opacity:1;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        position:relative; left: 50%;
+        
+    }
+    .hamburger:hover .-top{
+        -webkit-transform:translateY(-100%);
+        -ms-transform:translateY(-100%);
+        transform:translateY(-100%);
+    }
+    .hamburger:hover .-bottom{
+        -webkit-transform:translateY(50%);
+        -ms-transform:translateY(100%);
+        transform:translateY(100%);
+        }
+    .hamburger.is-active .-top{
+        -webkit-transform:translateY(200%) rotate(45deg) !important;
+        -ms-transform:translateY(200%) rotate(45deg) !important;
+        transform:translateY(200%) rotate(45deg) !important;
+    }
+    .hamburger.is-active .-mid{
+        opacity:0;
+    }
+    .hamburger.is-active .-bottom{
+        -webkit-transform:translateY(-200%) rotate(135deg) !important;
+        -ms-transform:translateY(-200%) rotate(135deg) !important;
+        transform:translateY(-200%) rotate(135deg) !important;
+    }
+    
+    .menuppal.is_active{
+      transform: translate3d(0px, 0px, 0px);
+    }
+    .menuppal{
+       background-color:#141e30e0;
+        bottom: 0;
+        height: 40%;
+        left: 0;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        transform: translate3d(0px, -100%, 0px);
+        transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+        width: 35%;
+        z-index: 1001;
+    }
+    .menuppal ul{
+      margin:0;padding:0;
+    }
+
+    .menuppal ul li { 
+      list-style: none;
+        text-align:left;
+        margin-left: 8%;
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        color: #e4e3e3;
+        font-size:1.6em;
+        line-height:2em;
+        height:2em;
+        text-transform:none;
+        font-weight:bold;
+    }
+
+    .menuppal ul li a{
+      text-decoration:none;
+      color:#e4e4e3;
+      font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive; ;
+      font-size: 0.8em;
+    }
+    .menuppal ul li a:hover{
+      text-decoration:none;
+      color:#9e7723b9;
+    }
+
+
+    /* MENU HAMBURGUESA */
+
+
+  
+    
+    .headerdeptos{
+        height: 100vh;
+        width: 100%;
+        margin-left: 0;
+        margin-top: -18%;
+        background-image: url(/img/headerSM.4.722x543.jpg);
+        background-size: cover;
+        
+    }
+    
+    .headerarriba {
+        position: absolute; left: -50px; top: -1%;
+        background-color: #141e30d3;
+        width: 40%;
+        height: 100vh;
+        transform: skewx(170deg);
+    }
+  
+    #bienvenidos {
+        margin-top: 0;
+    }
+
+    .imgheader {
+        width: auto;
+       position: relative; left: 52%; top: 120px;
+       text-shadow: 2px 2px #242018;
+       
+    }
+
+    #bienvenidos h3 {
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        font-weight: 380;
+        letter-spacing: 3px;
+        z-index: 200;
+        font-size: 3.2em;
+        text-align: center;
+        color: #e4e3e3;
+        text-shadow: 2px 2px #242018;
+        position: relative; top: 200px; left: -10%;
+        
+        
+    }
+    
+    
+    
+    .headerpadel a{
+    text-decoration: none;
+   
+    }
+
+
+    .formreserva {
+        width: 85%;
+        height: 40%;
+        background-color: #4b4a49ec;
+        margin-left: 6%;
+        position: relative; top: -5%;
+        
+        z-index: 150;
+        padding-top: 5%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        
+    }
+
+    .formreserva h3 {
+        margin-top: 5px;
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 200;
+        font-size: 0.2em;
+        text-align: center;
+        
+    }
+
+    .formreserva h5 {
+        color: #141E30;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 200;
+        font-size: 1em;
+        letter-spacing: 3px;
+        margin-left: 15%;
+        text-align: center;
+
+    }
+
+    .formreserva div {
+        margin-top: 5px;
+    }
+
+    .formreserva a {
+        text-decoration: none;
+    }
+
+
+    .formreserva input {
+        margin-top: 1px;
+        width: 100%;
+        
+    }
+
+
+    .inputfechas {
+        margin-top: 1px;
+        width: 60px;
+    }
+
+    
+    .formreserva label {
+        color: #e4e3e3;
+    }
+
+    .formreserva span {
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    .btnconsulta {
+        width: 50%;
+        position: relative; left: 20%;
+        background-color: #141E30;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        border: none;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        padding-top: 2%;
+
+      
+    }
+
+    .wspabsolute {
+        font-size: 1em;
+        font-family: 'Rajdhani', 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif ;
+        width: 70%;
+        
+    }
+
+    .wspabsolute a {
+        text-decoration: none;
+        
+    }
+
+    .h5wsp {
+        color: #141E30;
+        font-family: 'Rajdhani','Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.6em;
+        margin-left: 18%;
+        text-align: center;
+        
+
+    }
+
+
+/* CARD SERVICIOS   */
+
+#cardservicios {
+
+    display: none;
+}
+
+
+#cardservicioscelular {
+    margin-top: 8%;
+    padding: 0;
+    min-height: 100vh;
+    background: #e4e3e3;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+.cards2 {
+    margin-top: -2%;
+}
+
+
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+    background-color: #e4e3e3;
+    border: none;
+    width: 240px;
+   
+}
+
+.container .card .face{
+    width: 100%;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #9E7723;
+    transform: translateY(0);
+    
+}
+
+.container .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+    max-width: 80px;
+}
+
+.container .card .face.face1 .content h3{
+    margin: 5px 0 0;
+    padding: 0;
+    color: #e4e3e3;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #e4e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 10px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 3px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+    background: #9E7723;
+    color: #eeee;
+}
+
+
+
+
+/*  CARD SERVICIOS     */
+
+
+
+
+    .headerhistoria {
+        background-image: url(./img/byn.headerhistoriaSM.jpg) ;
+        width: 100%;
+        height: 300px;
+        margin-top: 15%;
+        padding-top: 2%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+
+    }
+
+    
+
+    #historia h4 {
+        font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 380;
+        font-size: 1.8em;
+        text-shadow: #333 1px 2px;
+        color: #e4e4e3;
+        letter-spacing: 1px;
+        margin-bottom: 2%;
+        margin-left: 6%;
+        margin-right: 5%;
+        text-align: center;
+        position: relative; top: 40px;
+        z-index: 200;
+        
+    }
+
+   
+    
+   
+
+
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   
+   
+    #galeriabuena {
+        margin-top: 15%;
+    }
+
+   .containergaleria{
+    padding: 20px 0;
+    margin: 14% auto;
+    width: 100%;
+  }
+  
+  .containergaleria h1{
+    position: relative;
+    margin-bottom: 35px;
+    font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+    
+    font-size: 2.2em;
+    
+    color: #424242;
+    text-shadow: #141e30 1px 2px;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    }
+    
+   .item:hover{
+      flex: 9;
+    }
+  
+  .item-1 { 
+    background-image: url('/img/4.livingabajo440.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('/img/20.hab.abajo.mat.440.jpeg');
+  }
+  
+  .item-3 { 
+    background-image: url('/img/9.arribaliv440.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('/img/8.mesadaabajo440.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('/img/12.habitarriba440.jpg');
+  }
+  
+  .social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    }
+    
+   .containergaleria img{
+      display: block;
+      width: 32px;
+    }
+
+
+
+
+
+   
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+
+
+   #galeriaSM {
+       display: none;
+    height: 71%;
+    width: 95%;
+}
+
+
+
+
+
+    
+    #ubicacion {
+        background-color: #141E30;
+        height: 48%;
+        margin-top: 18%;
+        margin-bottom: 7%;
+        padding-top: 4%;
+        padding-left: 10%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+    }
+
+    #ubicacion h4 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 2.7em;
+        text-decoration:underline #9E7723;
+        color: #e4e3e3;
+        margin-top: 5%;
+    }
+
+    #ubicacion h3 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    #ubicacion h6 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    .ubicacionlg {
+        display: none;
+    }
+
+    #ciudad {
+        margin-top: 29% ;
+        margin-bottom: 25%;
+    }
+
+    #ciudad h5 {
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 2em;
+        font-size: 400;
+        margin-left: 6%;
+
+    }
+   #ciudad p {
+
+       font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+           font-size: 1.2em;
+           font-size: 400;
+           margin-left: 7%;
+   }
+
+    .imgciudad {
+        margin-bottom: 2%;
+        padding-bottom: 5%;
+        margin-left: 10%;
+    }
+
+    #ciudad button {
+        background-color: #141e30;
+        color:#9E7723;
+        width: 100%;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 1.2em;
+        font-size: 400;
+        margin-left: 7%;
+    }
+
+
+
+    .footer {
+        background-color: #141E30;
+        width: 100%;
+        height: 25%;
+        border-top: solid 2px #9E7723 ;
+    }
+
+    .footer h4 {
+        color: #e4e3e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: underline #9E7723;
+        margin-top: 7%;
+        
+        
+    }
+
+    .footer h5 {
+        margin-top: 3%;
+        text-align: center;
+    }
+
+    .footer h3 {
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    .footer p {
+        color: #e4e4e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 100;
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    /* SELLO DEVOLP */
+
+    .facudevol {
+        color: #c4c4c4;
+        position: relative; right: -40%; bottom: -2%;
+        font-size: 0.8em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline overline #c4c4c4;
+        
+     
+
+    }
+
+
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+
+    #galeria {
+        margin-top: 8%;
+    }
+
+    .deptos {
+        height: 10%;
+        background-color: #141E30;
+        position: relative; left: 5%; 
+        margin-top: 5%; 
+        padding: 2%;
+        z-index: 100;
+       
+    }
+
+    .deptos h5 {
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1.2em;
+        
+        text-align: left;
+        
+
+
+    } 
+
+    .deptos h6 {
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 200;
+        font-size: 0.9em;
+        text-align: left;
+        
+        color: #e6e6e6;
+    } 
+
+    .btngaleria {
+        border: solid 2px #9E7723;
+        background-color: #141e30;
+        margin-bottom: -5%;
+
+    }
+
+
+    #nuestrosservicios {
+        margin-top: 20%;
+        margin-bottom: 10%;
+        
+    }
+
+    #nuestrosservicios h3 {
+        color: #141E30;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 2em;
+        margin: 5%;
+        text-shadow: 1px 1px #9E7723 ;
+               
+        text-align: center;
+
+    }
+   
+
+    .iconosservicios {
+        position: relative; left:7%;
+    }
+
+
+    .cardicon {
+        background-color: #141e30;
+        box-shadow: 2px 2px #9E7723;
+    }
+
+    .cardicon p {
+        font-family: 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 0.9em;
+        text-align: left;
+        
+        color: #e6e6e6;
+
+    }
+
+    .cardicon h6 {
+        color: #e4e4e3;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1.2em;
+        
+        text-align: left;
+    }
+
+}
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MAS PEQUEÑO    MAS PEQUEÑO     MAS PEQUEÑO  */
+/*MAS PEQUEÑO    MAS PEQUEÑO     MAS PEQUEÑO  */
+/*MAS PEQUEÑO    MAS PEQUEÑO     MAS PEQUEÑO  */ /*MAS PEQUEÑO    MAS PEQUEÑO     MAS PEQUEÑO  */
+/*MAS PEQUEÑO    MAS PEQUEÑO     MAS PEQUEÑO  */   
+
+
+    
+@media screen and (min-width:105px) and (max-width:359px){
+
+
+  
+     
+    #contenedorgeneral {width: 100%;
+        max-width: 650spx;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 1100px;
+        background-color:#e4e3e3;
+        
+    }
+
+    
+    
+    #menusm {
+        display: block;
+    }
+
+    #menugrande {
+        display: none;
+    }
+
+    
+    .navbarpadel {
+        display: none;
+        width: 100%;
+        height: 6%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: transparent;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    }
+
+      .navbarpadel a {
+          font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+          font-weight: 450;
+          font-size: 1.1em;
+          text-decoration: none;
+          color: #e4e4e3;
+          position: relative; top: 38%;
+        }  
+
+
+    .navbarsm figure {
+        position: relative; left: 150px;
+    }
+        
+    .logonav {
+        width: 100%;
+        height: fit-content;
+        
+     }   
+
+
+    
+    #barritasm {
+        display: none;
+    }
+
+    
+   
+
+
+
+
+    /* MENU HAMBURGUESA , MENU HAMBURGUESA */
+/* MENU HAMBURGUESA , MENU HAMBURGUESA */
+/* MENU HAMBURGUESA , MENU HAMBURGUESA */
+
+body{margin:0;padding:0;};
+
+    .hamburger{
+        position:fixed;
+        left:0;
+        top:0;
+      background-color:transparent;
+        height:30px;
+        width:30px;
+        padding:10px 10px;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        z-index:1002;
+        cursor:pointer;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none
+    }
+    .hamburger.is-active{
+      background-color:#141e3023;
+      position: sticky;
+      
+    }
+    ._layer{
+        background:#e4e3e3;
+        margin-bottom:4px;
+        border-radius:3px;
+        width:22px;
+        height:3px;
+        opacity:1;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        position:relative; left: 50%;
+        
+    }
+    .hamburger:hover .-top{
+        -webkit-transform:translateY(-100%);
+        -ms-transform:translateY(-100%);
+        transform:translateY(-100%);
+    }
+    .hamburger:hover .-bottom{
+        -webkit-transform:translateY(50%);
+        -ms-transform:translateY(100%);
+        transform:translateY(100%);
+        }
+    .hamburger.is-active .-top{
+        -webkit-transform:translateY(200%) rotate(45deg) !important;
+        -ms-transform:translateY(200%) rotate(45deg) !important;
+        transform:translateY(200%) rotate(45deg) !important;
+    }
+    .hamburger.is-active .-mid{
+        opacity:0;
+    }
+    .hamburger.is-active .-bottom{
+        -webkit-transform:translateY(-200%) rotate(135deg) !important;
+        -ms-transform:translateY(-200%) rotate(135deg) !important;
+        transform:translateY(-200%) rotate(135deg) !important;
+    }
+    
+    .menuppal.is_active{
+      transform: translate3d(0px, 0px, 0px);
+    }
+
+    .menuppal{
+       background-color:#141e30e0;
+        bottom: 0;
+        height: 35%;
+        left: 0;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        transform: translate3d(0px, -100%, 0px);
+        transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+        width: 45%;
+        z-index: 1001;
+    }
+    .menuppal ul{
+      margin:0;padding:0;
+    }
+
+    .menuppal ul li { 
+      list-style: none;
+        text-align:left;
+        margin-left: 8%;
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        color: #e4e3e3;
+        font-size:1.6em;
+        line-height:1.5em;
+        height:1.5em;
+        text-transform:none;
+        font-weight:bold;
+    }
+
+    .menuppal ul li a{
+      text-decoration:none;
+      color:#e4e4e3;
+      font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive; ;
+      font-size: 0.6em;
+    }
+    .menuppal ul li a:hover{
+      text-decoration:none;
+      color:#9e7723b9;
+    }
+
+
+    /* MENU HAMBURGUESA */
+
+
+  
+    
+    .headerdeptos{
+        height: 100vh;
+        width: 100%;
+        margin-left: 0;
+        margin-top: -25%;
+        background-image: url(/img/headerSM.4.722x543.jpg);
+        background-size: cover;
+        
+    }
+    
+    .headerarriba {
+        position: absolute; left: -42px; top: 0%;
+        background-color: #141e30d3;
+        width: 50%;
+        height: 100vh;
+        transform: skewx(170deg);
+    }
+  
+    #bienvenidos {
+        margin-top: 0;
+    }
+
+    .imgheader {
+        width: auto;
+       position: relative; left: 52%; top: 120px;
+       text-shadow: 2px 2px #242018;
+       
+    }
+
+    #bienvenidos h3 {
+        font-family: 'Rajdhani', 'Pushster','Bebas Neue', cursive;
+        font-weight: 300;
+        letter-spacing: 2px;
+        z-index: 200;
+        font-size: 2.5em;
+        text-align: center;
+        color: #e4e3e3;
+        text-shadow: 2px 2px #242018;
+        position: relative; top: 200px; left: -5%;
+        
+        
+    }
+    
+    
+    
+    .headerpadel a{
+    text-decoration: none;
+   
+    }
+
+
+    .formreserva {
+        width: 90%;
+        height: 40%;
+        background-color: #4b4a49ec;
+        margin-left: 2%;
+        position: relative; top: -5%;
+        
+        z-index: 150;
+        padding-top: 5%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        
+    }
+
+    .formreserva h3 {
+        margin-top: 5px;
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 200;
+        font-size: 0.2em;
+        text-align: center;
+        
+    }
+
+    .formreserva h5 {
+        color: #141E30;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 200;
+        font-size: 1em;
+        letter-spacing: 3px;
+        margin-left: 15%;
+        text-align: center;
+
+    }
+
+    .formreserva div {
+        margin-top: 5px;
+    }
+
+    .formreserva a {
+        text-decoration: none;
+    }
+
+
+    .formreserva input {
+        margin-top: 1px;
+        width: 100%;
+        
+    }
+
+
+    .inputfechas {
+        margin-top: 1px;
+        width: 60px;
+    }
+
+    
+    .formreserva label {
+        color: #e4e3e3;
+    }
+
+    .formreserva span {
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    .btnconsulta {
+        width: 50%;
+        position: relative; left: 20%;
+        background-color: #141E30;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        border: none;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        padding-top: 2%;
+
+      
+    }
+
+    .wspabsolute {
+        font-size: 1em;
+        font-family: 'Rajdhani', 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif ;
+        width: 80%;
+        
+    }
+
+    .wspabsolute a {
+        text-decoration: none;
+        
+    }
+
+    .h5wsp {
+        color: #141E30;
+        font-family: 'Rajdhani','Yanone Kaffeesatz', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.6em;
+        margin-left: 18%;
+        text-align: center;
+        
+
+    }
+
+
+/* CARD SERVICIOS   */
+
+#cardservicios {
+
+    display: none;
+}
+
+
+#cardservicioscelular {
+    margin-top: 8%;
+    padding: 0;
+    min-height: 100vh;
+    background: #e4e3e3;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+.cards2 {
+    margin-top: -2%;
+}
+
+
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+    background-color: #e4e3e3;
+    border: none;
+    width: 240px;
+   
+}
+
+.container .card .face{
+    width: 100%;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #9E7723;
+    transform: translateY(0);
+    
+}
+
+.container .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+    max-width: 80px;
+}
+
+.container .card .face.face1 .content h3{
+    margin: 5px 0 0;
+    padding: 0;
+    color: #e4e3e3;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #e4e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 10px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 3px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+    background: #9E7723;
+    color: #eeee;
+}
+
+
+
+
+/*  CARD SERVICIOS     */
+
+
+
+
+    .headerhistoria {
+        background-image: url(./img/byn.headerhistoriaSM.jpg) ;
+        width: 100%;
+        height: 300px;
+        margin-top: 15%;
+        padding-top: 2%;
+        padding-left: 2%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+
+    }
+
+    
+
+    #historia h4 {
+        font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 380;
+        font-size: 1.6em;
+        text-shadow: #333 1px 2px;
+        color: #e4e4e3;
+        letter-spacing: 1px;
+        margin-bottom: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+        text-align: center;
+        position: relative; top: 40px;
+        z-index: 200;
+        
+    }
+
+   
+    
+   
+
+
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   
+   
+    #galeriabuena {
+        display: none;
+        margin-top: 15%;
+    }
+
+   .containergaleria{
+    padding: 20px 0;
+    margin: 14% auto;
+    width: 100%;
+  }
+  
+  .containergaleria h1{
+    position: relative;
+    margin-bottom: 35px;
+    font-family: 'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+    
+    font-size: 2.2em;
+    
+    color: #424242;
+    text-shadow: #141e30 1px 2px;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    }
+    
+   .item:hover{
+      flex: 9;
+    }
+  
+  .item-1 { 
+    background-image: url('/img/4.livingabajo440.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('/img/20.hab.abajo.mat.440.jpeg');
+  }
+  
+  .item-3 { 
+    background-image: url('/img/9.arribaliv440.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('/img/8.mesadaabajo440.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('/img/12.habitarriba440.jpg');
+  }
+  
+  .social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    }
+    
+   .containergaleria img{
+      display: block;
+      width: 32px;
+    }
+
+
+   
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+   /*   GALERIA ZARPADA DE IMAGENES       */
+
+
+
+
+
+
+   /*   GALERIA SMALL CELULAR       */
+   
+   /*   GALERIA SMALL CELULAR       */
+   
+   /*   GALERIA SMALL CELULAR       */
+
+
+    #galeriaSM {
+        margin-top: 20%;
+        height: 125px;
+        width: 95%;
+    }
+
+
+
+
+
+
+
+    
+    #ubicacion {
+        background-color: #141E30;
+        height: 48%;
+        margin-top: 28%;
+        margin-bottom: 7%;
+        padding-top: 4%;
+        padding-left: 5%;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8)
+    }
+
+    #ubicacion h4 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 2.2em;
+        text-decoration:underline #9E7723;
+        color: #e4e3e3;
+        margin-top: 5%;
+    }
+
+    #ubicacion h3 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    #ubicacion h6 {
+        color: #e4e3e3;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 1em;
+        color: #e4e3e3;
+        margin-top: 2%;
+    }
+
+    .ubicacionlg {
+        display: none;
+    }
+
+    #ciudad {
+        margin-top: 29% ;
+        margin-bottom: 25%;
+    }
+
+    #ciudad h5 {
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 2em;
+        font-size: 400;
+        margin-left: 6%;
+
+    }
+   #ciudad p {
+
+       font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+           font-size: 1.2em;
+           font-size: 400;
+           margin-left: 7%;
+   }
+
+    .imgciudad {
+        margin-bottom: 2%;
+        padding-bottom: 5%;
+        margin-left: 10%;
+    }
+
+    #ciudad button {
+        background-color: #141e30;
+        color:#9E7723;
+        width: 100%;
+        font-family:'Rajdhani', 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-size: 1.2em;
+        font-size: 400;
+        margin-left: 7%;
+    }
+
+
+
+    .footer {
+        background-color: #141E30;
+        width: 100%;
+        height: 25%;
+        border-top: solid 2px #9E7723 ;
+    }
+
+    .footer h4 {
+        color: #e4e3e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-size: 0.9em;
+        text-align: center;
+        text-decoration: underline #9E7723;
+        margin-top: 10%;
+        margin-right: 2%;
+        
+        
+    }
+
+    .footer h5 {
+        margin-top: 3%;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .footer h3 {
+        text-align: center;
+        margin-top: -1%;
+        font-size: 0.8em;
+    }
+
+    .footer p {
+        color: #e4e4e3b2;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 100;
+        text-align: center;
+        margin-top: -1%;
+        font-size: 0.8em;
+    }
+
+    /* SELLO DEVOLP */
+
+    .facudevol {
+        color: #c4c4c4;
+        position: relative; right: -28%; bottom: -2%;
+        font-size: 0.8em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline overline #c4c4c4;
+        
+     
+
+    }
+
+   
+    
+
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+    /* SERVICIOS   SERVICIOS     SERVICIOS  */
+
+
+    #galeria {
+        margin-top: 8%;
+    }
+
+    .deptos {
+        height: 10%;
+        background-color: #141E30;
+        position: relative; left: 5%; 
+        margin-top: 5%; 
+        padding: 2%;
+        z-index: 100;
+       
+    }
+
+    .deptos h5 {
+        color: #e4e3e3;
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 0.9em;
+        
+        text-align: left;
+        
+
+
+    } 
+
+    .deptos h6 {
+        font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, sans-serif, cursive ;
+        font-weight: 200;
+        font-size: 0.7em;
+        text-align: left;
+        
+        color: #e6e6e6;
+    } 
+
+    .btngaleria {
+        border: solid 2px #9E7723;
+        background-color: #141e30;
+        margin-bottom: -5%;
+
+    }
+
+
+    #nuestrosservicios {
+        margin-top: 20%;
+        margin-bottom: 10%;
+        
+    }
+
+    #nuestrosservicios h3 {
+        color: #141E30;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 2em;
+        margin: 5%;
+        text-shadow: 1px 1px #9E7723 ;
+               
+        text-align: center;
+
+    }
+   
+
+    .iconosservicios {
+        position: relative; left:7%;
+    }
+
+
+    .cardicon {
+        background-color: #141e30;
+        box-shadow: 2px 2px #9E7723;
+    }
+
+    .cardicon p {
+        font-family: 'Playfair Display','Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-size: 0.9em;
+        text-align: left;
+        
+        color: #e6e6e6;
+
+    }
+
+    .cardicon h6 {
+        color: #e4e4e3;
+        font-family: 'Pushster','Bebas Neue', cursive;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 1.2em;
+        
+        text-align: left;
+    }
+
+
+
+}
+
+
+
+
+/*   PEQUEÑO    PEQUEÑO     PEQUEÑO    CELULAR   */
