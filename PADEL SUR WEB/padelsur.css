@@ -43,49 +43,426 @@
     }
 
     
+    .navbartransp {
+        width: 100%;
+        height: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: transparent;
+        
+    }
+
     .navbarpadel {
         width: 100%;
-        height: 12%;
-       
+        height: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
         background-color: #141E30;
-    }
-    
-    .navbarrita {
-        width: 100%;
-        height: 3%;
-        background-color: #80C131;
-    }
-    
-    .navbarrita a {
-        font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 500;
-        text-decoration: none;
-        color:#141E30;
-        
     }
 
     .logonav {
         width: 100%;
         height: fit-content;
         margin-left: 10%;
-        margin-top: 3%;
+        margin-top: 5%;
         
      }   
-    
-    .btnreservar {
+
+     .btnreservar {
+        margin-top: 20%;
+        height: 55px;
         background-color: #80C131;
-        border: #e4e3e3;
-        position: relative; bottom: 18%; right: 15%;
-        
+        border: solid 1px #e4e3e3;
+        padding-top: 10%;  
         
         
     }
     
     .btnreservar h6 {
-        margin-top: 3%;
+        font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+      
         color:#e4e3e3;
-        font-weight: 500;
+        align-self:center;
+        
     }
+
+    .btnreservar a {
+        text-decoration: none;
+    }
+    
+    #barritasm {
+        display: none;
+    }
+
+    
+    .navbarrita {
+        width: 100%;
+        height: 3%;
+        background-color: #80C131;
+        padding-right: 8%;
+    }
+    
+    .navbarrita a {
+        font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        text-decoration: none;
+        color:#141E30;
+        
+    }
+
+
+ 
+    
+
+    .rankingdrop a {
+        width: 100%;
+        height: 35px;
+        background-color: #141E30;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+        text-align: center;
+        padding-top: 4%;
+         
+    }
+
+    .colum1 {
+        align-self: flex-end;
+    }
+
+    .colum2 {
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+    
+    
+    
+    
+    #menucomun a {
+        color: #e4e3e3;
+        text-decoration: none;
+        font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        
+        
+    }
+    
+    #menucomun div {
+        margin-top: 7%;
+        justify-content: right;
+        align-content: flex-end;
+    }
+
+    .headerpadel{
+        height: 550px;
+        width: 100%;
+        background-image:  url(/images/headerpadel2edit.jpg);
+        
+        
+    }
+
+    .headerpadel a{
+    text-decoration: none;
+   
+    }
+
+    .reserva {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 450;
+        font-size: 5em;
+        margin-left: 5%;
+        width: 45%;
+        height: 25px;
+        position: relative; top: 25%;
+        color: #80C131;
+
+                
+    }
+
+    .tucancha {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3em;
+        margin-left: 5%;
+        width: 45%;
+        height: 25px;
+        position: relative; top: 27%;
+        color: #e4e3e3;
+
+    }
+
+
+
+
+
+    
+    .formregistro {
+        width: 75%;
+        height: 200px;
+        justify-content: center;
+        position: relative; left: 7%; top: 5%;
+       
+        
+    }
+
+    .formregistro h4 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3.5em;
+        margin-left: 4%;
+        color: #e4e3e3;
+        position: absolute; top: -42%;
+    }
+
+      
+    .formregistro input {
+        height: 30px;
+        margin: 1%;
+       
+        position: relative; left: 20%;
+            
+    }
+
+    .formregistro button { 
+        width: 30%;
+        background-color: #80C131;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.3em;
+        position: relative; left: 35%;
+        margin: 2%;
+        
+    }
+
+    .formregistro h3 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-left: 4%;
+        color:#80C131;
+        text-align: center;
+
+        
+    }
+
+
+
+
+    .rankingpadelsur {
+        width: 100%;
+        height: 300px;
+        margin-top: 15%;
+        justify-content: center;
+        position: relative; top: 5%;
+        background-color: #80C131;
+        padding-top: 2%;
+
+       
+        
+    }
+
+
+    .rankingpadelsur h4 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3.5em;
+        margin-left: 9%;
+        color: #e4e3e3;
+        position: absolute; top: -10%;
+        text-shadow: 2px 2px #141E30 ;
+       
+    }
+
+
+    .rankingpadelsur h5 {
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 1.5%;      
+        margin-left: 13%;
+        color: #141E30;
+        
+
+         
+    }
+
+    .rankingpadelsur h6 {
+        font-family: 'Bebas Neue', cursive;
+        
+        margin-left: 13%;
+        color: #e4e3e3;
+         
+    }
+
+
+
+
+
+    .formadministrador {
+        width: 75%;
+        height: 200px;
+        justify-content: center;
+        position: relative; left: 7%; top: 25%;
+       
+        
+    }
+
+    .formadministrador h4 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3.5em;
+        margin-left: 4%;
+        color: #e4e3e3;
+        text-align: center;
+        position: absolute; top: -45%;
+    }
+
+      
+    .formadministrador input {
+        height: 30px;
+        margin: 1%;
+       
+        position: relative; left: 20%;
+            
+    }
+
+    .formadministrador button { 
+        width: 30%;
+        background-color: #80C131;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.3em;
+        position: relative; left: 35%;
+        margin: 2%;
+        
+    }
+
+    .formadministrador h3 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-left: 4%;
+        color:#80C131;
+        text-align: center;
+
+        
+    }
+
+
+
+
+    
+
+}
+
+
+
+
+
+    /*MEDIANO        /    MEDIANO     / TABLET   */
+
+
+
+    @media screen and (min-width:480px) and (max-width:996px){
+
+           
+    #contenedorgeneral {width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: 1100px;
+        background-color:#141E30;
+        
+    }
+
+    #menugrande div {
+        border-radius: 2px;
+        color: #80C131;
+        
+
+    }
+
+    #menusm {
+        display: none;
+    }
+
+    
+    .navbarpadel {
+        width: 100%;
+        height: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #141E30;
+    }
+
+    .logonav {
+        width: 100%;
+        height: fit-content;
+        margin-left: 10%;
+        margin-top: 5%;
+        
+     }   
+
+     .btnreservar {
+        margin-top: 20%;
+        height: 55px;
+        background-color: #80C131;
+        border: solid 1px #e4e3e3;
+        padding-top: 10%;  
+        
+        
+    }
+    
+    .btnreservar h6 {
+        font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+      
+        color:#e4e3e3;
+        align-self:center;
+        
+    }
+
+    .btnreservar a {
+        text-decoration: none;
+    }
+
+
+    #barritasm {
+        display: none;
+    }
+
+    .navbarrita {
+        width: 100%;
+        height: 3%;
+        background-color: #80C131;
+        padding-right: 8%;
+    }
+    
+    .navbarrita a {
+        font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        text-decoration: none;
+        color:#141E30;
+        
+    }
+
+    .colum1 {
+        align-self: flex-end;
+    }
+
+    .colum2 {
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+    
+    
+    
     
     #menucomun a {
         color: #e4e3e3;
@@ -106,115 +483,88 @@
         height: 450px;
         width: 100%;
         background-image:  url(/images/headerpadel2edit.jpg);
-        margin: 0%;
+        margin-top: -15px;
     }
 
     .headerpadel a{
     text-decoration: none;
+   
     }
 
     .reservatucancha {
         font-family: 'Bebas Neue', cursive;
-        font-weight: 500;
-        font-size: 5em;
+        font-weight: 400;
+        font-size: 4.5em;
         margin-left: 5%;
+        width: 100%;
+        height: 25px;
         position: relative; top: 25%;
         color: #e4e3e3;
-        
+                
     }
 
     
 
 
 
-}
 
-
-
-
-
-
-    /*MEDIANO        /    MEDIANO     / TABLET   */
-
-
-
-    @media screen and (min-width:576px) and (max-width:996px){
-
-        #contenedorgeneral {width: 100%;
-            max-width: 1600px;
-            margin: 0 auto;
-            box-sizing: border-box;
-            height: 1100px;
-            background-color:#141E30
-            
-        }
     
-        #menusm {
-            display: none;
-        }
-    
+    .formadministrador {
+        width: 75%;
+        height: 200px;
+        justify-content: center;
+        position: relative; left: 7%; top: 25%;
+       
         
-        .navbarpadel {
-            width: 100%;
-            height: 12%;
-           
-            background-color: #141E30;
-        }
+    }
+
+    .formadministrador h4 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3.5em;
+        margin-left: 4%;
+        color: #e4e3e3;
+        text-align: center;
+        position: absolute; top: -45%;
+    }
+
+      
+    .formadministrador input {
+        height: 30px;
+        margin: 1%;
+       
+        position: relative; left: 20%;
+            
+    }
+
+    .formadministrador button { 
+        width: 30%;
+        background-color: #80C131;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.3em;
+        position: relative; left: 35%;
+        margin: 2%;
         
-        .navbarrita {
-            width: 100%;
-            height: 3%;
-            background-color: #80C131;
-        }
+    }
+
+    .formadministrador h3 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-left: 4%;
+        color:#80C131;
+        text-align: center;
+
         
-        .navbarrita a {
-            font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: 500;
-            text-decoration: none;
-            color:#141E30;
-            
-        }
-    
-        .logonav {
-            width: 100%;
-            height: fit-content;
-            margin-left: 10%;
-            margin-top: 3%;
-            
-         }   
-        
-        .btnreservar {
-            background-color: #80C131;
-            border: #e4e3e3;
-            position: relative; top: 20%; right: 15%;
-            
-            
-            
-        }
-        
-        .btnreservar h6 {
-            margin-top: 2%;
-            color:#e4e3e3;
-            font-weight: 400;
-        }
-        
-        #menucomun a {
-            color: #e4e3e3;
-            text-decoration: none;
-            font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: 500;
-            
-            
-        }
-        
-        #menucomun div {
-            margin-top: 7%;
-            justify-content: right;
-            align-content: flex-end;
-        }  
-    
-    
-    
+    }
+
+
+
+
+
+
     }
 
 
@@ -237,83 +587,216 @@
 
 
     
-@media screen and (min-width:100px) and (max-width:575px){
+@media screen and (min-width:100px) and (max-width:479px){
 
 
-    
-    #contenedorgeneral {width: 110vw;
+    #contenedorgeneral {width: 100%;
         max-width: 1600px;
         margin: 0 auto;
         box-sizing: border-box;
         height: 1100px;
         background-color:#141E30;
-        border: black solid;
         
     }
 
 
+    #menugrande {
+        display: none;
 
+    }
+    #menugrande div {
+        border-radius: 2px;
+        color: #80C131;
+        
+
+    }
+
+  
+
+    
     .navbarpadel {
         width: 100%;
-        height: 22%;
-       
+        height: 18%;
+        padding-left: 10%;
+        padding-right: 10%;
         background-color: #141E30;
-        border:solid #80C131; 
-        align-items: center;
+        justify-content: center;
+    }
+
+    .logonav {
+        width: 80%;
+        height: 50%;
+        position: relative; left: 12%;
+        margin-top: 7%;
+        
+     }   
+
+     .btnreservar {
+        margin-top: 2%;
+       position: relative; left: 16%;
+        height: 35px;
+        width: 65%;
+        background-color: #80C131;
+        border: solid 1px #e4e3e3;
+        padding-top: 4%;  
+        
+        
     }
     
-    
-    .logonav {
-        width: 70%;
-        height: 80%;
-       border: solid black;
-       align-items: center;
-     }   
-    
-    .btnreservar {
-        background-color: #80C131;
-        border: #e4e3e3;
-        position:absolute; top: 65%;right: 15%;
-        height: min-content;
-        border: black solid;
-        
+    .btnreservar h6 {
+        font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+        color:#e4e3e3;
+        align-self:center;
         
     }
 
-    
-    .btnreservar h6 {
-        color:#e4e3e3;
-        font-weight: 400;
-        font-size: 1em;
+    .btnreservar a {
+        text-decoration: none;
+    }
+
+    #barrita {
+        display: none;
     }
     
-    .navbarrita {
-        width: 110vw;
-        height: 7%;
+    .navbarritasmxx {
+        width: 100%;
+        height: 10%;
+        margin-top: 5%;
         background-color: #80C131;
-        border: black solid;
-        
+        padding-right: 8%;
     }
     
-    .navbarrita a {
-        font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
+    .navbarritasm a {
+        width: 100%;
+        height: 2%;
+        margin-top: 3%;
+        background-color: #80C131;
+        padding-right: 8%;
+        font-family: 'Bebas Neue', Verdana, Tahoma, sans-serif;
         font-weight: 400;
+        font-size: 0,8em;
         text-decoration: none;
         color:#141E30;
-        
+        text-align: center;
     }
-  
+
+    .navbarritasm li {
+        margin-top: -4%;
+    }
+
+    .colum1 {
+        align-self: flex-end;
+    }
+
+    .colum2 {
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+    
+    
+    
+    
     #menucomun a {
         color: #e4e3e3;
         text-decoration: none;
         font-family: "Montserrat" Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 400;
-        border: black solid;
+        font-weight: 500;
+        
         
     }
     
+    #menucomun div {
+        margin-top: 7%;
+        justify-content: right;
+        align-content: flex-end;
+    }
+
+    .headerpadel{
+        height: 300px;
+        width: 100%;
+        background-image:  url(/images/headerpadel2editSM.jpg);
+        margin-top: -20px;
+    }
+
+    .headerpadel a{
+    text-decoration: none;
    
+    }
+
+    .reservatucancha {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3em;
+        margin-left: 5%;
+        width: 100%;
+        height: 25px;
+        position: relative; top: 25%;
+        color: #e4e3e3;
+                
+    }
     
+   
+   
+
+
+
+
+
+    
+    .formadministrador {
+        width: 75%;
+        height: 200px;
+        justify-content: center;
+        position: relative; left: 7%; top: 25%;
+       
+        
+    }
+
+    .formadministrador h4 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 3.5em;
+        margin-left: 4%;
+        color: #e4e3e3;
+        text-align: center;
+        position: absolute; top: -45%;
+    }
+
+      
+    .formadministrador input {
+        height: 30px;
+        margin: 1%;
+       
+        position: relative; left: 20%;
+            
+    }
+
+    .formadministrador button { 
+        width: 30%;
+        background-color: #80C131;
+        color: #e4e3e3;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.3em;
+        position: relative; left: 35%;
+        margin: 2%;
+        
+    }
+
+    .formadministrador h3 {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 1.1em;
+        margin-left: 4%;
+        color:#80C131;
+        text-align: center;
+
+        
+    }
+
 
 
 

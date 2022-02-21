@@ -9,7 +9,7 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-<link rel="stylesheet" href="/padelsur.css">
+<link rel="stylesheet" href="padelsur.css">
 
 
 </head>
@@ -18,29 +18,32 @@
 <body id="contenedorgeneral">
 
 
-    <nav id="menugrande" class="container-fluid sticky-top navbarpadel row">
+    <nav id="menugrande" class="container-fluid sticky-top">
+       
+        <ul class="nav justify-content-between">
+            <li class="nav-item">
+                <figure class="logonav">
+                    <img  src="/images/padel.logonav.png" class="img-fluid" alt="logopadel">
+                </figure>
+            </li>
 
-        <div class="col-xl-4 col-lg-4 col-mg-4 col-sm-4 col-12">
-            <figure class="logonav">
-                <img  src="/images/padel.logonav.png" class="img-fluid" alt="logopadel">
-            </figure>
+            
 
-        </div>
-                
-        <div class="col-xl-6 col-lg-6 col-mg-6 col-sm-6 col-12">
-            <div id="menucomun" class="row navbarsm justify-content-end align-content-center justify-content-lg-end justify-content-md-end justify-content-sm-end">
+           
+            <li class="nav-item">
+                <button class="btn btnreservar">
+                    <a href="http://wa.me/+543437410724"><h6>RESERVAR TURNO</h6></a>
+                </button>
+            </li>
             
-                                               
-                <div class="col-4 col-xl-3 col-lg-4 col-md-4 col-sm-4">
-                    <button class="btn btnreservar">
-                        <a href="http://wa.me/+543437410724"><h6>RESERVAR TURNO</h6></a>
-                    </button>
-                </div>
-                
-            </div>
-            
-            
-        </nav>  
+          </ul>
+
+      
+      
+      
+      
+                  
+    </nav>  
 
 
 
@@ -52,9 +55,26 @@
         
 
 
-      <nav id="menusm" class="container-fluid navbarpadel">
+      <nav id="menusm" class="container-fluid flex-column align-content-center navbarpadel">
 
-            <div class="col-xl-6 col-lg-6 col-mg-6 col-sm-12 col-12 justify-content-center">
+        <figure class="logonav align-content-center">
+            <img  src="/images/padel.logonav.png" class="img-fluid" alt="logopadel">
+        </figure>
+        <button class="btn btnreservar justify-content-center">
+            <a href="http://wa.me/+543437410724"><h6>RESERVAR TURNO</h6></a>
+        </button>
+              
+           
+       </nav>
+        
+        
+        
+        
+        <!--
+
+        
+        
+        <div class="col-xl-6 col-lg-6 col-mg-6 col-sm-12 col-12 justify-content-center">
                 <figure class="logonav justify-content-center">
                 <img  src="/images/padel.logonav.png" class="img-fluid" alt="logopadel">
                 </figure>
@@ -69,10 +89,12 @@
                 
                 
             </div>
+
             
             
         </nav>
-
+        
+        -->
         
 
             
@@ -83,93 +105,176 @@
              
 
 
-        <div class="container-fluid navbarrita row align-items-center justify-content-center justify-content-lg-end justify-content-md-end justify-content-sm-end justify-content-xl-end align-items-xl-end align-items-xxl-end align-items-lg-end">
-            <div class="col-12 col-lg-5 col-md-5 col-sm-5 justify-content-center justify-content-lg-end justify-content-md-end justify-content-sm-end justify-content-xl-end">   
-                <a href="index.html">QUIENES SOMOS</a>
-             </div>
-             
-             <div class="col-12 col-lg-3 col-md-3 col-sm-3 justify-content-center justify-content-lg-end justify-content-md-end justify-content-sm-end justify-content-xl-end">
-                 <a href="#areaspracticas">ASOCIATE</a>
-             </div>
+    <div id="barrita" class="container-fluid navbarrita">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#registro">REGISTRATE</a>
+                </li>
+              
+                <li class="nav-item dropdown">
+                    
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">RANKING PS</a>
+                        <div class="dropdown-menu rankingdrop">
+                          <a class="dropdown-item" href="#">¿QUE ES?</a>
+                          <a class="dropdown-item" href="#">SUMAR PUNTOS</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">RANKING</a>
+                        </div>
+                      
+                </li>
+                <li class="nav-item dropdown">
+                    
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">TORNEOS</a>
+                    <div class="dropdown-menu rankingdrop">
+                      <a class="dropdown-item" href="#">FECHAS</a>
+                      <a class="dropdown-item" href="#">LIGA PS</a>
+                    </div>
+                  
+                </li>
+            
+                <li class="nav-item">
+                  <a class="nav-link" href="#">NOSOTROS</a>
+                </li>
+                
+              </ul>
+    </div>
+            
 
-        </div>
 
+    <div id="barritasm" class="container-fluid flex-column align-content-center navbarritasm">
 
+              
+                <a class="nav-link active" href="#registro">R E G I S T R A T E</a>
+                            
+                <div class="nav-item dropdown">
+                    
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">R A N K I N G - PS</a>
+                    <div class="dropdown-menu rankingdrop">
+                      <a class="dropdown-item" href="#">¿QUE ES?</a>
+                      <a class="dropdown-item" href="#">SUMAR PUNTOS</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">RANKING</a>
+                    </div>
+                  
+                </div>
 
+                <div class="nav-item dropdown">
+                    
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">T O R N E O S</a>
+                    <div class="dropdown-menu rankingdrop">
+                      <a class="dropdown-item" href="#">FECHAS</a>
+                      <a class="dropdown-item" href="#">LIGA PS</a>
+                    </div>
+                  
+                </div>
+
+                             
+                <a class="nav-link" href="#">N O S O T R O S</a>
         
-        <div class="smnone col-1 d-md-none d-sm-none">    
-            <a href="contacto.html"><img src="/imagenes/iconos/whatsapp.30px.png" alt=""></a>             
-        </div>  
+        
     </div> 
         
 
-    -->
+    
     <section class="headerpadel">
-        <a href="http://wa.me/+543437410724"><h3 class="reservatucancha">RESERVA TU CANCHA</h3></a> 
+       
+            <a href="http://wa.me/+543437410724"><h3 class="reserva">RESERVA</h3><br><h4 class="tucancha">TU CANCHA</h4></a> 
+        
+
+
+           
+
 
 
     </section>
 
-       
     
+    
+    <section id="registro" class="formregistro"> 
+    
+        <h4>REGISTRARME</h4>
+
+            <form>
+            <div class="row">
+               
+                  <div class="col-lg-5">
+                   <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
+                 </div>
+                 <div class="col-lg-5">
+                   <input type="text" class="form-control" name="apellido" placeholder="Apellido" required>
+                 </div>
+               
+            </div>
+
+            <div class="row">
+
+             <div class="col-lg-5">
+                <input type="number" class="form-control" name="dni" placeholder="D.N.I." required>
+            </div>
+             <div class="col-lg-5">
+               <input type="number" class="form-control" name="telefono" placeholder="N° de celular" required>
+             </div>
+          
+            </div>
+           
+            <div class="row">
+                <div class="col-lg-5">
+                    <input type="email" class="form-control" name="email" placeholder="Email">
+                </div>
+                <div class="col-lg-5">
+                  <input type="text" class="form-control" name="instagram" placeholder="@Instagram">
+                </div>
+                             
+            </div>
+            
+             
+            <button type="submit" class="btn">REGISTARME</button>
+
+
+            <h3 class="sumapuntos">Registrate y empezá a sumar puntos en nuestro "Ranking Padel Sur"</h3>
+          
+        </form>
+
+    </section>
+
+
+
                         
        
+     
+  <section id="ranking" class="rankingpadelsur container-fluid"> 
+    
+      <h4>RANKING PADEL SUR</h4>
+
+          <h5>¿QUE ES?</h5>
+          <h6>El Ranking Padel Sur (RPS) es un sistema integrado y ordenado de puntos que permite acceder a <a href="#beneficios">beneficios y premios períodicos</a></h6>
+
+          <h5>¿COMO SUMO PUNTOS?</h5>
+          <h6>Los Puntos PS son otorgados por el simple hecho de jugar en las canchas del complejo, por participar en la "Liga Padel Sur" <br> y por interactuar en nuestro instagram (@padelsur.lapaz)</h6>
+
+          <h5>BENEFICIOS Y PREMIOS</h5>
+          <h6>Todos los meses, Padel Sur sortea premios y beneficios para cada usuario registrado. <br>
+            Cada 6 meses, se le otorga un premio al 1ro. del Ranking Padel Sur.</h6>
+
+
+
+          <h6 class="sumapuntos">Registrate y empezá a sumar puntos en nuestro "Ranking Padel Sur"</h6>
+        
+      </form>
+
+  </section>
+
+
+
+
+
 
        
                    
     
 <footer class="container-fluid footer">
-    <div class="row">
-        
-        <div class="col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-            <figure class="smicono iconocontacto">
-                <img src="../imagenes/iconos/ubicacion.70px.png" alt="ubicacion">
-            </figure>
-            
-            <h4 class="smnone">OFICINAS</h4>
-            <p>
-               *Av. Ramirez N° 1180 - Parana E.R. <br>
-               *Bv.Galvez N° 2030 - Santa Fe <br>
-               *Urquiza 934 - La Paz E.R.  
-            </p>  
+    
 
-        </div>
-
-
-        <div class="col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-            <figure class="smiconomail iconocontacto">             
-                <img class="smiconomail" src="../imagenes/iconos/email.80px.png">
-            </figure>
-            <a href="mailto:info@defendiendotuderecho.com"><h4>info@defendiendotuderecho.com</h4></a>
-
-        </div>
-
-        <div class="smnone d-sm-none d-md-none d-lg-block d-xl-block col-xl-4 col-lg-4">
-            <div class="row iconosredes">
-
-                <div class="col">
-                    <img src="../imagenes/iconos/facebook.icono.chico.png" alt="facebook">
-                </div>
-                <div class="col">
-                    <img src="../imagenes/iconos/twitter.icono.chico.png" alt="twitter">
-                </div>
-                <div class="col">
-                    <img src="../imagenes/iconos/instagram.icono.chico.png" alt="Instagram">
-                </div>
-            </div>
-            <h4>@Defendiendotuderecho</h4>
-        </div>
-
-        <figure class="logofooter">
-            <img src="/imagenes/logoclaromtschico.png" alt="logoestudio">
-        </figure>
-            <div class="copyright">
-                &copy; Todos los derechos reservados 
-            </div>
-       
-        
-
-    </div>
 
 </footer>
 
@@ -184,10 +289,14 @@
         
 </main>
 
+     
     <!-- JavaScript Bundle with Popper -->
-    <script src="/padelsur.js"></script>
-   
-    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="padelsur.js"></script>
+   
+
 </body>
 </html>
